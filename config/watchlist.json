@@ -8,7 +8,12 @@
       "max_price": 700,
       "target_price": 350,
       "deal_percent": 20,
-      "exclude": ["defekt", "bastler", "suche", "hülle"],
+      "exclude": [
+        "defekt",
+        "bastler",
+        "suche",
+        "hülle"
+      ],
       "max_pages": 2
     },
     {
@@ -19,7 +24,26 @@
       "max_price": 600,
       "target_price": null,
       "deal_percent": 20,
-      "exclude": ["defekt", "display", "hülle", "suche"],
+      "exclude": [
+        "defekt",
+        "display",
+        "hülle",
+        "suche"
+      ],
+      "max_pages": 2
+    },
+    {
+      "id": "gta-6",
+      "name": "GTA 6",
+      "query": "GTA 6",
+      "min_price": 0,
+      "max_price": 500,
+      "target_price": 50,
+      "deal_percent": 20,
+      "exclude": [
+        "defekt",
+        "bastler"
+      ],
       "max_pages": 2
     }
   ]
