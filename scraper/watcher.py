@@ -362,19 +362,30 @@ class Watcher:
             return 1
         return 0
 
+    @staticmethod
+    def _diagnose(page_html: str) -> str:
+        """Kurzinfo zur abgerufenen Seite, um Sperre oder Layoutänderung zu erkennen."""
+        title = re.search(r"<title[^>]*>(.*?)</title>", page_html, re.S | re.I)
+        title_text = re.sub(r"\s+", " ", title.group(1)).strip()[:80] if title else "-"
+        return (f"Seitentitel: {title_text} | Länge: {len(page_html)} Zeichen | "
+                f"<article>: {len(re.findall(r'<article', page_html, re.I))} | "
+                f"data-adid: {page_html.count('data-adid')}")
+
     def _fetch_all(self, product: Product) -> list:
         """Alle Ergebnisseiten laden, doppelte Anzeigen entfernen."""
         unique = {}
+        last_html = ""
         for page in range(1, product.max_pages + 1):
             if page > 1:
                 time.sleep(random.uniform(2, 4))  # höflich bleiben
-            items = self.parser.parse(self.client.fetch(self.client.build_url(product, page)))
+            last_html = self.client.fetch(self.client.build_url(product, page))
+            items = self.parser.parse(last_html)
             if not items:
                 break
             for item in items:
                 unique[item.ad_id] = item
         if not unique:
-            raise ScrapeError("Keine Anzeigen gefunden (Layout geändert oder Zugriff blockiert?)")
+            raise ScrapeError("Keine Anzeigen gefunden – " + self._diagnose(last_html))
         return list(unique.values())
 
     def _process(self, product: Product, data: dict) -> None:
