@@ -140,15 +140,36 @@ class KleinanzeigenClient:
 
 # ---------------------------------------------------------------- Parser
 class ListingParser:
-    """Liest Anzeigen aus dem HTML einer Suchergebnisseite."""
+    """Liest Anzeigen aus dem HTML einer Suchergebnisseite.
+
+    Tolerant gebaut: Titel, Preis und Link werden über mehrere Fallbacks gesucht,
+    falls Kleinanzeigen sein Seitenlayout ändert.
+    """
 
     ARTICLE_RE = re.compile(r"<article\b([^>]*)>(.*?)</article>", re.S | re.I)
-    AD_ID_RE = re.compile(r'data-adid="(\d+)"')
-    HREF_RE = re.compile(r'data-href="([^"]+)"')
-    TITLE_RE = re.compile(r'<a[^>]*class="[^"]*ellipsis[^"]*"[^>]*>(.*?)</a>', re.S | re.I)
-    H2_RE = re.compile(r"<h2[^>]*>(.*?)</h2>", re.S | re.I)
+    AD_ID_RE = re.compile(r'data-adid=["\']?(\d+)')
+    HREF_RE = re.compile(r'data-href=["\']([^"\']+)')
+    ANZEIGE_LINK_RE = re.compile(r'<a[^>]*href=["\'](?:https://www\.kleinanzeigen\.de)?(/s-anzeige/[^"\']+)["\'][^>]*>(.*?)</a>', re.S | re.I)
+    TITLE_RES = [
+        re.compile(r'<a[^>]*class="[^"]*ellipsis[^"]*"[^>]*>(.*?)</a>', re.S | re.I),
+        re.compile(r"<h2[^>]*>(.*?)</h2>", re.S | re.I),
+        re.compile(r"<h3[^>]*>(.*?)</h3>", re.S | re.I),
+    ]
+    IMG_ALT_RE = re.compile(r'<img[^>]*alt="([^"]+)"', re.I)
     PRICE_BLOCK_RE = re.compile(r'class="[^"]*price[^"]*"[^>]*>(.*?)</(?:p|div|span)>', re.S | re.I)
-    EURO_RE = re.compile(r"(\d[\d.]*)(?:,\d+)?\s*€")
+    EURO_RE = re.compile(r"(\d[\d.]*)(?:,\d+)?\s*(?:€|EUR\b)")
+    ID_FROM_URL_RE = re.compile(r"/(\d{6,})-\d+-\d+")
+
+    def __init__(self):
+        self.reset_debug()
+
+    def reset_debug(self) -> None:
+        """Zähler für die Fehlerdiagnose (siehe debug_info)."""
+        self.articles = 0
+        self.no_id = 0
+        self.no_title = 0
+        self.no_price = 0
+        self.sample = ""
 
     @staticmethod
     def _text(fragment: str) -> str:
@@ -159,26 +180,71 @@ class ListingParser:
         match = self.EURO_RE.search(text)
         return int(match.group(1).replace(".", "")) if match else None
 
+    def _title(self, body: str) -> str:
+        """Titel über mehrere Fallbacks suchen."""
+        for pattern in self.TITLE_RES:
+            match = pattern.search(body)
+            if match and self._text(match.group(1)):
+                return self._text(match.group(1))
+        for _href, inner in self.ANZEIGE_LINK_RE.findall(body):
+            if self._text(inner):
+                return self._text(inner)
+        match = self.IMG_ALT_RE.search(body)
+        return self._text(match.group(1)) if match else ""
+
+    def _href(self, attrs: str, body: str, ad_id: str) -> str:
+        match = self.HREF_RE.search(attrs)
+        if match:
+            return match.group(1)
+        link = self.ANZEIGE_LINK_RE.search(body)
+        return link.group(1) if link else f"/s-anzeige/{ad_id}"
+
+    def _ad_id(self, attrs: str, body: str) -> Optional[str]:
+        match = self.AD_ID_RE.search(attrs)
+        if match:
+            return match.group(1)
+        link = self.ANZEIGE_LINK_RE.search(body)  # Notlösung: ID aus dem Link
+        match = self.ID_FROM_URL_RE.search(link.group(1)) if link else None
+        return match.group(1) if match else None
+
     def parse(self, page_html: str) -> list:
+        self.reset_debug()
         listings = []
         for attrs, body in self.ARTICLE_RE.findall(page_html):
-            id_match = self.AD_ID_RE.search(attrs)
-            if not id_match:
+            self.articles += 1
+            ad_id = self._ad_id(attrs, body)
+            if not ad_id:
+                self.no_id += 1
+                self._remember_sample(attrs, body)
                 continue  # kein Anzeigen-Artikel (z. B. Werbebanner)
-            title_match = self.TITLE_RE.search(body) or self.H2_RE.search(body)
-            title = self._text(title_match.group(1)) if title_match else ""
 
+            title = self._title(body)
             price_block = self.PRICE_BLOCK_RE.search(body)
             price = self._price(self._text(price_block.group(1))) if price_block else None
             if price is None:
                 price = self._price(self._text(body))  # Notlösung: erster Eurobetrag
-            if not title or price is None:
-                continue  # z. B. "Zu verschenken" oder "VB" ohne Betrag
+            if not title:
+                self.no_title += 1
+                self._remember_sample(attrs, body)
+                continue
+            if price is None:
+                self.no_price += 1  # z. B. "Zu verschenken" – normal, kein Fehler
+                continue
 
-            href_match = self.HREF_RE.search(attrs)
-            href = href_match.group(1) if href_match else f"/s-anzeige/{id_match.group(1)}"
-            listings.append(Listing(id_match.group(1), title, price, BASE_URL + href))
+            listings.append(Listing(ad_id, title, price, BASE_URL + self._href(attrs, body, ad_id)))
         return listings
+
+    def _remember_sample(self, attrs: str, body: str) -> None:
+        """Ersten nicht lesbaren Artikel für die Diagnose merken."""
+        if not self.sample:
+            raw = re.sub(r"\s+", " ", f"<article {attrs}>{body}")
+            self.sample = raw[:700]
+
+    def debug_info(self) -> str:
+        """Kurzbericht, warum nichts gelesen werden konnte."""
+        info = (f"Parser: {self.articles} Artikel, ohne ID: {self.no_id}, "
+                f"ohne Titel: {self.no_title}, ohne Preis: {self.no_price}")
+        return info + (f" | Beispiel: {self.sample}" if self.sample else "")
 
 
 # ---------------------------------------------------------------- Analyse
@@ -385,7 +451,8 @@ class Watcher:
             for item in items:
                 unique[item.ad_id] = item
         if not unique:
-            raise ScrapeError("Keine Anzeigen gefunden – " + self._diagnose(last_html))
+            raise ScrapeError("Keine Anzeigen gefunden – " + self._diagnose(last_html)
+                              + " | " + self.parser.debug_info())
         return list(unique.values())
 
     def _process(self, product: Product, data: dict) -> None:
