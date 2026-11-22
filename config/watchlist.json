@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "id": "ps5",
+      "name": "PlayStation 5",
+      "query": "playstation 5",
+      "min_price": 150,
+      "max_price": 700,
+      "target_price": 350,
+      "deal_percent": 20,
+      "exclude": ["defekt", "bastler", "suche", "hülle"],
+      "max_pages": 2
+    },
+    {
+      "id": "iphone13",
+      "name": "iPhone 13",
+      "query": "iphone 13",
+      "min_price": 150,
+      "max_price": 600,
+      "target_price": null,
+      "deal_percent": 20,
+      "exclude": ["defekt", "display", "hülle", "suche"],
+      "max_pages": 2
+    }
+  ]
+}

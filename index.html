@@ -1,0 +1,578 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Preiswächter">
+<meta name="theme-color" content="#0f766e">
+<title>Preiswächter</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #ffffff; --text: #1b1f24; --muted: #6b7280;
+    --line: #e5e7eb; --accent: #0f766e; --good: #15803d; --bad: #b91c1c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1316; --card: #171c20; --text: #e8eaed; --muted: #9aa3ad;
+      --line: #262d33; --accent: #2dd4bf; --good: #4ade80; --bad: #f87171;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.4 -apple-system, system-ui, "Segoe UI", sans-serif;
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  }
+  header, main { max-width: 760px; margin: 0 auto; padding: 12px 16px; }
+  header { display: flex; justify-content: space-between; align-items: center; }
+  h1 { font-size: 20px; margin: 0; }
+  h2 { font-size: 16px; margin: 20px 0 8px; }
+  .muted { color: var(--muted); font-size: 14px; }
+  button { font: inherit; cursor: pointer; }
+  .icon-btn { background: none; border: 0; font-size: 22px; color: var(--text); padding: 4px 8px; }
+  .head-actions { display: flex; align-items: center; gap: 4px; }
+  button:disabled { opacity: .5; cursor: default; }
+
+  .chips { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 6px; }
+  .chip {
+    flex: none; border: 1px solid var(--line); background: var(--card); color: var(--text);
+    border-radius: 999px; padding: 8px 14px;
+  }
+  .chip.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .chip .badge { background: var(--good); color: #fff; border-radius: 999px; padding: 0 7px; margin-left: 6px; font-size: 13px; }
+  .chip.add { color: var(--accent); }
+
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px; margin-top: 12px; }
+  .head { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+  .head h2 { margin: 0; font-size: 18px; }
+  .stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 12px; }
+  .stat .label { color: var(--muted); font-size: 13px; }
+  .stat .value { font-size: 20px; font-weight: 600; }
+  .down { color: var(--good); } .up { color: var(--bad); }
+
+  .tabs { display: flex; gap: 6px; margin-bottom: 8px; }
+  .tab { border: 1px solid var(--line); background: none; color: var(--text); border-radius: 8px; padding: 4px 10px; font-size: 14px; }
+  .tab.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+  svg { width: 100%; height: auto; display: block; }
+  svg text { fill: var(--muted); font-size: 11px; }
+  svg .grid { stroke: var(--line); stroke-width: 1; }
+  svg .median { stroke: var(--accent); fill: none; stroke-width: 2; }
+  svg .min { stroke: var(--muted); fill: none; stroke-width: 1.5; stroke-dasharray: 2 3; }
+  svg .thr { stroke: var(--good); stroke-width: 1.5; stroke-dasharray: 5 4; }
+  svg .dot { fill: var(--accent); }
+  .legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 13px; color: var(--muted); margin-top: 6px; }
+
+  .row { display: flex; justify-content: space-between; gap: 12px; padding: 10px 0; border-top: 1px solid var(--line); color: inherit; text-decoration: none; }
+  .row:first-child { border-top: 0; }
+  .row .title { overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+  .row .price { font-weight: 600; white-space: nowrap; text-align: right; }
+  .row .old { color: var(--muted); font-weight: 400; font-size: 13px; text-decoration: line-through; display: block; }
+  .tag { color: var(--good); font-size: 12px; font-weight: 600; }
+  details summary { cursor: pointer; font-weight: 600; }
+
+  .primary, .ghost, .danger { border-radius: 8px; padding: 8px 14px; border: 1px solid var(--accent); }
+  .primary { background: var(--accent); color: #fff; }
+  .ghost { background: none; color: var(--text); border-color: var(--line); }
+  .danger { background: none; color: var(--bad); border-color: var(--bad); }
+  .small { padding: 4px 10px; font-size: 14px; }
+
+  dialog { border: 0; border-radius: 14px; padding: 18px; width: min(92vw, 420px); background: var(--card); color: var(--text); }
+  dialog::backdrop { background: rgba(0, 0, 0, .5); }
+  dialog h2 { margin-top: 0; }
+  label { display: block; font-size: 14px; color: var(--muted); margin-top: 10px; }
+  input { width: 100%; font: inherit; padding: 8px; margin-top: 4px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--text); }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 16px; }
+  .hint { font-size: 13px; color: var(--muted); margin: 10px 0 0; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Preiswächter</h1>
+  <div class="head-actions">
+    <button class="ghost small" id="btnCheck">↻ Jetzt prüfen</button>
+    <button class="icon-btn" id="btnSettings" aria-label="Einstellungen">⚙︎</button>
+  </div>
+</header>
+
+<main>
+  <div class="chips" id="chips"></div>
+  <div class="muted" id="status"></div>
+  <section id="detail"></section>
+</main>
+
+<!-- Dialog: Produkt hinzufügen / bearbeiten -->
+<dialog id="dlgProduct">
+  <form id="formProduct">
+    <h2 id="productTitle">Produkt</h2>
+    <label>Name<input name="name" required></label>
+    <label>Suchbegriff<input name="query" required placeholder="z. B. playstation 5"></label>
+    <div class="two">
+      <label>Min. Preis (€)<input name="min_price" type="number" min="0" inputmode="numeric"></label>
+      <label>Max. Preis (€)<input name="max_price" type="number" min="0" inputmode="numeric"></label>
+    </div>
+    <label>Wunschpreis (€, optional)<input name="target_price" type="number" min="0" inputmode="numeric"></label>
+    <label>Ohne Wunschpreis: % unter dem Normalpreis<input name="deal_percent" type="number" min="1" max="90" value="20" inputmode="numeric"></label>
+    <label>Ausschlusswörter (Komma-getrennt)<input name="exclude" placeholder="defekt, bastler, suche"></label>
+    <p class="hint">Der Min.-Preis blendet Zubehör und Fehlinserate aus. Neue Produkte erscheinen nach dem nächsten Lauf (stündlich oder per „Jetzt prüfen“).</p>
+    <div class="actions">
+      <button type="button" class="danger" id="btnDelete" hidden>Entfernen</button>
+      <button type="button" class="ghost" data-close>Abbrechen</button>
+      <button type="submit" class="primary">Speichern</button>
+    </div>
+  </form>
+</dialog>
+
+<!-- Dialog: Einstellungen -->
+<dialog id="dlgSettings">
+  <form id="formSettings">
+    <h2>Einstellungen</h2>
+    <label>GitHub-Repository (Benutzer/Name)<input name="repo" placeholder="meinname/preiswaechter"></label>
+    <label>GitHub-Token (Contents + Actions: Lesen und Schreiben)<input name="token" type="password" autocomplete="off"></label>
+    <p class="hint">Wird benötigt, um Produkte zu ändern und „Jetzt prüfen“ zu starten. Der Token bleibt ausschließlich in diesem Browser gespeichert.</p>
+    <div class="actions">
+      <button type="button" class="ghost" data-close>Abbrechen</button>
+      <button type="submit" class="primary">Speichern</button>
+    </div>
+  </form>
+</dialog>
+
+<script>
+"use strict";
+
+/* =========================================================== Hilfsfunktionen */
+const EUR = new Intl.NumberFormat("de-DE", { style: "currency", currency: "EUR", maximumFractionDigits: 0 });
+const fmtPrice = v => (v == null ? "–" : EUR.format(v));
+const fmtDate = iso => new Date(iso).toLocaleString("de-DE", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" });
+const fmtDay = ms => new Date(ms).toLocaleDateString("de-DE", { day: "2-digit", month: "2-digit" });
+const slug = s => s.toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const $ = sel => document.querySelector(sel);
+
+/* =========================================================== Einstellungen */
+/** Speichert Repo und Token im Browser (localStorage). */
+class Settings {
+  static KEY = "preiswaechter.settings";
+
+  constructor() {
+    this.repo = "";
+    this.token = "";
+    this.load();
+    if (!this.repo) this.repo = this.guessRepo();
+  }
+
+  /** Auf GitHub Pages lässt sich das Repo aus der Adresse ableiten. */
+  guessRepo() {
+    if (!location.hostname.endsWith(".github.io")) return "";
+    const owner = location.hostname.split(".")[0];
+    const name = location.pathname.split("/")[1];
+    return name ? `${owner}/${name}` : "";
+  }
+
+  load() {
+    try { Object.assign(this, JSON.parse(localStorage.getItem(Settings.KEY) || "{}")); } catch { /* ignorieren */ }
+  }
+
+  save() {
+    try { localStorage.setItem(Settings.KEY, JSON.stringify({ repo: this.repo, token: this.token })); } catch { /* ignorieren */ }
+  }
+
+  get canWrite() {
+    return /^[^/\s]+\/[^/\s]+$/.test(this.repo) && !!this.token;
+  }
+}
+
+/* =========================================================== Daten laden */
+/** Lädt die JSON-Dateien dieser Seite (immer frisch, ohne Cache). */
+class DataLoader {
+  async json(path) {
+    const res = await fetch(`${path}?t=${Date.now()}`, { cache: "no-store" });
+    if (!res.ok) throw new Error(`${path}: HTTP ${res.status}`);
+    return res.json();
+  }
+}
+
+/* =========================================================== Watchlist in GitHub ändern */
+/** Schreibt config/watchlist.json über die GitHub-API ins Repository. */
+class GitHubConfig {
+  static PATH = "config/watchlist.json";
+
+  constructor(settings) { this.settings = settings; }
+
+  get url() { return `https://api.github.com/repos/${this.settings.repo}/contents/${GitHubConfig.PATH}`; }
+  get headers() { return { Authorization: `Bearer ${this.settings.token}`, Accept: "application/vnd.github+json" }; }
+
+  async read() {
+    const res = await fetch(this.url, { headers: this.headers, cache: "no-store" });
+    if (!res.ok) throw new Error(`GitHub: HTTP ${res.status} – Repo/Token prüfen`);
+    const meta = await res.json();
+    const bytes = Uint8Array.from(atob(meta.content.replace(/\n/g, "")), c => c.charCodeAt(0));
+    return { sha: meta.sha, config: JSON.parse(new TextDecoder().decode(bytes)) };
+  }
+
+  async write(config, sha, message) {
+    const bytes = new TextEncoder().encode(JSON.stringify(config, null, 2) + "\n");
+    let binary = "";
+    bytes.forEach(b => { binary += String.fromCharCode(b); });
+    const res = await fetch(this.url, {
+      method: "PUT",
+      headers: { ...this.headers, "Content-Type": "application/json" },
+      body: JSON.stringify({ message, content: btoa(binary), sha }),
+    });
+    if (!res.ok) throw new Error(`GitHub: HTTP ${res.status} beim Speichern`);
+  }
+
+  /** Aktuelle Datei holen, per `mutate` ändern, zurückschreiben. */
+  async update(mutate, message) {
+    const { sha, config } = await this.read();
+    mutate(config);
+    await this.write(config, sha, message);
+    return config;
+  }
+}
+
+/* =========================================================== Workflow starten */
+/** Startet den Workflow „Preise prüfen“ sofort über die GitHub-API. */
+class GitHubWorkflow {
+  static FILE = "watch.yml";
+
+  constructor(settings) { this.settings = settings; }
+
+  get repoUrl() { return `https://api.github.com/repos/${this.settings.repo}`; }
+  get headers() { return { Authorization: `Bearer ${this.settings.token}`, Accept: "application/vnd.github+json" }; }
+
+  /** Standard-Branch des Repositories (meist "main"). */
+  async defaultBranch() {
+    const res = await fetch(this.repoUrl, { headers: this.headers });
+    if (!res.ok) throw new Error(`GitHub: HTTP ${res.status} – Repo/Token prüfen`);
+    return (await res.json()).default_branch;
+  }
+
+  async dispatch() {
+    const ref = await this.defaultBranch();
+    const res = await fetch(`${this.repoUrl}/actions/workflows/${GitHubWorkflow.FILE}/dispatches`, {
+      method: "POST",
+      headers: { ...this.headers, "Content-Type": "application/json" },
+      body: JSON.stringify({ ref }),
+    });
+    if (res.status === 403 || res.status === 404) {
+      throw new Error("Nicht erlaubt oder nicht gefunden: Dem Token fehlt „Actions: Read and write“, oder die Datei .github/workflows/watch.yml fehlt.");
+    }
+    if (!res.ok) throw new Error(`GitHub: HTTP ${res.status}`);
+  }
+}
+
+/* =========================================================== Diagramm */
+/** Einfaches SVG-Liniendiagramm: Median, günstigster Preis, Schwelle. */
+class LineChart {
+  constructor(width = 360, height = 220) {
+    this.w = width;
+    this.h = height;
+    this.pad = { l: 54, r: 10, t: 10, b: 24 };
+  }
+
+  render(snaps, threshold) {
+    if (!snaps.length) return `<p class="muted">Noch keine Messwerte.</p>`;
+    const { w, h, pad } = this;
+    const times = snaps.map(s => new Date(s.t).getTime());
+    const t0 = Math.min(...times), t1 = Math.max(...times);
+
+    const values = snaps.flatMap(s => [s.median, s.min]);
+    if (threshold != null) values.push(threshold);
+    let lo = Math.min(...values), hi = Math.max(...values);
+    if (hi === lo) { hi += 1; lo -= 1; }
+    const margin = (hi - lo) * 0.08;
+    lo -= margin; hi += margin;
+
+    const innerW = w - pad.l - pad.r, innerH = h - pad.t - pad.b;
+    const x = t => pad.l + (t1 === t0 ? innerW / 2 : ((t - t0) / (t1 - t0)) * innerW);
+    const y = v => pad.t + ((hi - v) / (hi - lo)) * innerH;
+    const path = key => snaps.map((s, i) => `${i ? "L" : "M"}${x(times[i]).toFixed(1)},${y(s[key]).toFixed(1)}`).join(" ");
+
+    const grid = [0, 1, 2].map(k => {
+      const v = lo + ((hi - lo) * k) / 2;
+      return `<line class="grid" x1="${pad.l}" x2="${w - pad.r}" y1="${y(v)}" y2="${y(v)}"/>` +
+             `<text x="${pad.l - 6}" y="${y(v) + 4}" text-anchor="end">${fmtPrice(v)}</text>`;
+    }).join("");
+
+    const dots = snaps.length <= 40
+      ? snaps.map((s, i) => `<circle class="dot" cx="${x(times[i])}" cy="${y(s.median)}" r="2.5"/>`).join("")
+      : "";
+    const thr = threshold != null
+      ? `<line class="thr" x1="${pad.l}" x2="${w - pad.r}" y1="${y(threshold)}" y2="${y(threshold)}"/>` : "";
+
+    return `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="Preisverlauf">
+      ${grid}${thr}
+      <path class="min" d="${path("min")}"/>
+      <path class="median" d="${path("median")}"/>${dots}
+      <text x="${pad.l}" y="${h - 6}">${fmtDay(t0)}</text>
+      <text x="${w - pad.r}" y="${h - 6}" text-anchor="end">${fmtDay(t1)}</text>
+    </svg>`;
+  }
+}
+
+/* =========================================================== App */
+class App {
+  constructor() {
+    this.settings = new Settings();
+    this.loader = new DataLoader();
+    this.chart = new LineChart();
+    this.products = [];
+    this.history = { updated: null, products: {} };
+    this.selectedId = null;
+    this.rangeDays = 30;      // 0 = alles
+    this.editingId = null;    // null = neues Produkt
+    this.bindEvents();
+  }
+
+  /* ---------- Start & Daten ---------- */
+  async init() { await this.reload(); }
+
+  async reload() {
+    this.setStatus("Lade Daten …");
+    try {
+      this.products = (await this.loader.json("config/watchlist.json")).products || [];
+    } catch (e) {
+      this.setStatus(`Watchlist nicht ladbar: ${e.message}`);
+      return;
+    }
+    try { this.history = await this.loader.json("data/history.json"); }
+    catch { this.history = { updated: null, products: {} }; }
+
+    if (!this.products.some(p => p.id === this.selectedId)) this.selectedId = this.products[0]?.id ?? null;
+    this.setStatus(this.history.updated ? `Daten-Stand: ${fmtDate(this.history.updated)}` : "Noch keine Daten – Workflow „Preise prüfen“ im GitHub-Tab Actions starten.");
+    this.render();
+  }
+
+  setStatus(text) { $("#status").textContent = text; }
+
+  /** Zustand eines Produkts aus dem Verlauf. */
+  stateOf(id) {
+    const raw = this.history.products?.[id] || {};
+    const listings = Object.values(raw.listings || {}).filter(l => l.active);
+    const threshold = raw.threshold ?? null;
+    return {
+      snaps: raw.snapshots || [],
+      listings,
+      threshold,
+      baseline: raw.baseline ?? null,
+      deals: threshold == null ? [] : listings.filter(l => l.price <= threshold).sort((a, b) => a.price - b.price),
+    };
+  }
+
+  /* ---------- Darstellung ---------- */
+  render() {
+    this.renderChips();
+    this.renderDetail();
+  }
+
+  renderChips() {
+    const chips = this.products.map(p => {
+      const n = this.stateOf(p.id).deals.length;
+      return `<button class="chip ${p.id === this.selectedId ? "active" : ""}" data-select="${esc(p.id)}">${esc(p.name)}${n ? `<span class="badge">${n}</span>` : ""}</button>`;
+    }).join("");
+    $("#chips").innerHTML = chips + `<button class="chip add" data-add>+ Produkt</button>`;
+  }
+
+  /** Veränderung des Medians: heute vs. vor 7 Tagen (sonst seit Start). */
+  trend(snaps) {
+    if (snaps.length < 2) return null;
+    const last = snaps[snaps.length - 1];
+    const limit = new Date(last.t).getTime() - 7 * 864e5;
+    const older = snaps.filter(s => new Date(s.t).getTime() <= limit);
+    const ref = older.length ? older[older.length - 1] : snaps[0];
+    if (ref === last || !ref.median) return null;
+    return { pct: ((last.median - ref.median) / ref.median) * 100, label: older.length ? "Trend (7 Tage)" : "Trend (seit Start)" };
+  }
+
+  renderDetail() {
+    const product = this.products.find(p => p.id === this.selectedId);
+    if (!product) {
+      $("#detail").innerHTML = `<div class="card muted">Noch kein Produkt. Mit „+ Produkt“ eines hinzufügen.</div>`;
+      return;
+    }
+    const st = this.stateOf(product.id);
+    const last = st.snaps[st.snaps.length - 1];
+    const cutoff = this.rangeDays ? Date.now() - this.rangeDays * 864e5 : 0;
+    const visible = st.snaps.filter(s => new Date(s.t).getTime() >= cutoff);
+    const trend = this.trend(st.snaps);
+    const trendHtml = trend
+      ? `<span class="${trend.pct <= 0 ? "down" : "up"}">${trend.pct > 0 ? "+" : ""}${trend.pct.toFixed(1).replace(".", ",")} %</span>`
+      : "–";
+
+    const tabs = [[7, "7 Tage"], [30, "30 Tage"], [0, "Alles"]]
+      .map(([d, label]) => `<button class="tab ${d === this.rangeDays ? "active" : ""}" data-range="${d}">${label}</button>`).join("");
+
+    const rest = st.listings.filter(l => !st.deals.includes(l)).sort((a, b) => a.price - b.price).slice(0, 25);
+
+    $("#detail").innerHTML = `
+      <div class="card">
+        <div class="head">
+          <h2>${esc(product.name)}</h2>
+          <button class="ghost small" data-edit>Bearbeiten</button>
+        </div>
+        <div class="muted">Suche: „${esc(product.query)}“${product.target_price ? ` · Wunschpreis ${fmtPrice(product.target_price)}` : ` · ${product.deal_percent || 20} % unter Normalpreis`}</div>
+        <div class="stats">
+          <div class="stat"><div class="label">Median aktuell</div><div class="value">${fmtPrice(last?.median)}</div></div>
+          <div class="stat"><div class="label">Günstigster</div><div class="value">${fmtPrice(last?.min)}</div></div>
+          <div class="stat"><div class="label">${trend ? trend.label : "Trend"}</div><div class="value">${trendHtml}</div></div>
+          <div class="stat"><div class="label">Schwelle „gut“</div><div class="value">${fmtPrice(st.threshold)}</div></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="tabs">${tabs}</div>
+        ${this.chart.render(visible, st.threshold)}
+        <div class="legend"><span>━ Median</span><span>┅ Günstigster</span><span style="color:var(--good)">╌ Schwelle</span></div>
+      </div>
+
+      <h2>Gute Angebote (${st.deals.length})</h2>
+      <div class="card">${st.deals.length ? st.deals.map(l => this.listingRow(l)).join("") : `<span class="muted">Aktuell keine Anzeige unter der Schwelle.</span>`}</div>
+
+      <details class="card">
+        <summary>Weitere Angebote (${rest.length})</summary>
+        ${rest.map(l => this.listingRow(l)).join("")}
+      </details>`;
+  }
+
+  listingRow(l) {
+    const isNew = Date.now() - new Date(l.first_seen).getTime() < 864e5;
+    const dropped = l.prev_price && l.prev_price > l.price;
+    return `<a class="row" href="${esc(l.url)}" target="_blank" rel="noopener">
+      <span class="title">${isNew ? `<span class="tag">NEU </span>` : ""}${esc(l.title)}</span>
+      <span class="price">${dropped ? `<span class="old">${fmtPrice(l.prev_price)}</span>` : ""}${fmtPrice(l.price)}</span>
+    </a>`;
+  }
+
+  /* ---------- Ereignisse ---------- */
+  bindEvents() {
+    document.addEventListener("click", e => {
+      const t = e.target.closest("[data-select],[data-add],[data-edit],[data-range],[data-close]");
+      if (!t) return;
+      if (t.dataset.select) { this.selectedId = t.dataset.select; this.render(); }
+      else if ("add" in t.dataset) this.openProduct(null);
+      else if ("edit" in t.dataset) this.openProduct(this.selectedId);
+      else if (t.dataset.range) { this.rangeDays = Number(t.dataset.range); this.renderDetail(); }
+      else if ("close" in t.dataset) t.closest("dialog").close();
+    });
+    $("#btnSettings").addEventListener("click", () => this.openSettings());
+    $("#btnCheck").addEventListener("click", () => this.checkNow());
+    $("#btnDelete").addEventListener("click", () => { $("#dlgProduct").close(); this.deleteProduct(); });
+    $("#formProduct").addEventListener("submit", e => { e.preventDefault(); this.saveProduct(); });
+    $("#formSettings").addEventListener("submit", e => { e.preventDefault(); this.saveSettings(); });
+  }
+
+  /* ---------- Sofort prüfen ---------- */
+  /** Workflow starten und danach alle 20 s nach neuen Daten schauen (max. ca. 4 Min.). */
+  async checkNow() {
+    if (!this.settings.canWrite) { this.openSettings(); return; }
+    const button = $("#btnCheck");
+    const before = this.history.updated;
+    button.disabled = true;
+    try {
+      await new GitHubWorkflow(this.settings).dispatch();
+      for (let i = 0; i < 12; i++) {
+        this.setStatus("Prüfung läuft … neue Daten in ca. 1–2 Minuten");
+        await new Promise(resolve => setTimeout(resolve, 20000));
+        await this.reload();
+        if (this.history.updated !== before) return;  // neue Daten da
+      }
+      this.setStatus("Noch keine neuen Daten – Lauf unter GitHub → Actions prüfen.");
+    } catch (e) {
+      alert(e.message);
+    } finally {
+      button.disabled = false;
+    }
+  }
+
+  /* ---------- Einstellungen ---------- */
+  openSettings() {
+    const f = $("#formSettings");
+    f.repo.value = this.settings.repo;
+    f.token.value = this.settings.token;
+    $("#dlgSettings").showModal();
+  }
+
+  saveSettings() {
+    const f = $("#formSettings");
+    this.settings.repo = f.repo.value.trim();
+    this.settings.token = f.token.value.trim();
+    this.settings.save();
+    $("#dlgSettings").close();
+  }
+
+  /* ---------- Produkte ändern ---------- */
+  openProduct(id) {
+    if (!this.settings.canWrite) { this.openSettings(); return; }  // erst Zugang einrichten
+    this.editingId = id;
+    const p = this.products.find(x => x.id === id) || {};
+    const f = $("#formProduct");
+    $("#productTitle").textContent = id ? "Produkt bearbeiten" : "Produkt hinzufügen";
+    $("#btnDelete").hidden = !id;  // Entfernen nur beim Bearbeiten
+    f.name.value = p.name ?? "";
+    f.query.value = p.query ?? "";
+    f.min_price.value = p.min_price ?? "";
+    f.max_price.value = p.max_price ?? "";
+    f.target_price.value = p.target_price ?? "";
+    f.deal_percent.value = p.deal_percent ?? 20;
+    f.exclude.value = (p.exclude || []).join(", ");
+    $("#dlgProduct").showModal();
+  }
+
+  /** Formular -> Produktobjekt für die Watchlist. */
+  readProductForm() {
+    const f = $("#formProduct");
+    const num = el => (el.value === "" ? null : Number(el.value));
+    const name = f.name.value.trim();
+    return {
+      id: this.editingId || slug(name) || `p${Date.now()}`,
+      name,
+      query: f.query.value.trim(),
+      min_price: num(f.min_price) ?? 0,
+      max_price: num(f.max_price),
+      target_price: num(f.target_price),
+      deal_percent: num(f.deal_percent) ?? 20,
+      exclude: f.exclude.value.split(",").map(s => s.trim()).filter(Boolean),
+      max_pages: 2,
+    };
+  }
+
+  async saveProduct() {
+    const product = this.readProductForm();
+    try {
+      const config = await new GitHubConfig(this.settings).update(cfg => {
+        cfg.products = cfg.products || [];
+        const i = cfg.products.findIndex(p => p.id === product.id);
+        if (i >= 0) cfg.products[i] = { ...cfg.products[i], ...product }; else cfg.products.push(product);
+      }, `Produkt ${this.editingId ? "geändert" : "hinzugefügt"}: ${product.name}`);
+      this.products = config.products;
+      this.selectedId = product.id;
+      $("#dlgProduct").close();
+      this.render();
+    } catch (e) {
+      alert(e.message);
+    }
+  }
+
+  async deleteProduct() {
+    const p = this.products.find(x => x.id === this.selectedId);
+    if (!p || !confirm(`„${p.name}“ nicht mehr beobachten?`)) return;
+    try {
+      const config = await new GitHubConfig(this.settings).update(cfg => {
+        cfg.products = cfg.products.filter(x => x.id !== p.id);
+      }, `Produkt entfernt: ${p.name}`);
+      this.products = config.products;
+      this.selectedId = this.products[0]?.id ?? null;
+      this.render();
+    } catch (e) {
+      alert(e.message);
+    }
+  }
+}
+
+const app = new App();
+app.init();
+</script>
+</body>
+</html>
