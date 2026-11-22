@@ -1,0 +1,42 @@
+name: Preise prüfen
+
+on:
+  schedule:
+    - cron: "17 * * * *"      # jede Stunde (zur Minute 17)
+  workflow_dispatch:          # manuell startbar im Tab "Actions"
+
+permissions:
+  contents: write             # nötig, um data/history.json zurückzuschreiben
+
+concurrency:
+  group: preise-pruefen
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Preise abrufen und auswerten
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python scraper/watcher.py
+
+      - name: Daten speichern
+        run: |
+          git config user.name "preiswaechter-bot"
+          git config user.email "preiswaechter-bot@users.noreply.github.com"
+          git add data/history.json
+          if git diff --cached --quiet; then
+            echo "Keine Änderungen"
+          else
+            git commit -m "Preisdaten aktualisiert"
+            git pull --rebase
+            git push
+          fi
