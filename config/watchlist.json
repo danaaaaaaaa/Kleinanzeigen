@@ -49,7 +49,7 @@
     {
       "id": "nintendo-switch",
       "name": "Nintendo Switch",
-      "query": "Nintendo Switch 2",
+      "query": "Nintendo Switch 2, neu",
       "min_price": 150,
       "max_price": 500,
       "target_price": null,
