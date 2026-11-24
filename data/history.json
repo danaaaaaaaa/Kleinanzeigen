@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-23T20:59:04+00:00",
+ "updated": "2026-11-24T04:50:54+00:00",
  "products": {
   "ps5": {
    "threshold": 350.0,
-   "baseline": 575.0,
+   "baseline": 600,
    "snapshots": [
     {
      "t": "2026-11-22T18:19:05+00:00",
@@ -53,6 +53,13 @@
      "median": 600,
      "min": 200,
      "p25": 470
+    },
+    {
+     "t": "2026-11-24T04:50:40+00:00",
+     "count": 39,
+     "median": 600,
+     "min": 150,
+     "p25": 400
     }
    ],
    "listings": {
@@ -62,7 +69,7 @@
      "price": 300,
      "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-5-cash-ankauf-normal-slim-digital-mit-laufwerk-ankauf/2774524917-279-6820",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3575513306": {
      "first_seen": "2026-11-22T18:19:05+00:00",
@@ -70,7 +77,7 @@
      "price": 700,
      "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-slim-edition-825-gb-1-controller-original-verpackt/3575513306-279-4346",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3579852173": {
      "first_seen": "2026-11-22T18:19:05+00:00",
@@ -541,8 +548,8 @@
      "title": "An alle GTA-6-Fans: Rüstet eure Crew aus – 3 PS5-Controller ab 17",
      "price": 175,
      "url": "https://www.kleinanzeigen.de/s-anzeige/an-alle-gta-6-fans-ruestet-eure-crew-aus-3-ps5-controller-ab-17/3576873707-279-3490",
-     "last_seen": "2026-11-22T18:58:49+00:00",
-     "active": false
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
     },
     "3579883984": {
      "first_seen": "2026-11-22T18:57:02+00:00",
@@ -1710,7 +1717,7 @@
      "price": 639,
      "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-5-disc-825gb-mit-1-controller/3580929466-279-25917",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580929318": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1718,7 +1725,7 @@
      "price": 500,
      "url": "https://www.kleinanzeigen.de/s-anzeige/ich-verkaufe-meine-ps5/3580929318-227-4325",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580929069": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1726,7 +1733,7 @@
      "price": 699,
      "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-5-ps5-digital-edition-825gb-neuwertig-/3580929069-279-22418",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580928389": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1734,7 +1741,7 @@
      "price": 580,
      "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-digital-edition/3580928389-279-6898",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580928357": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1742,7 +1749,7 @@
      "price": 670,
      "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-5-ps5-konsole-mit-laufwerk-und-controller/3580928357-279-1338",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580928113": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1750,7 +1757,7 @@
      "price": 580,
      "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-5-slim-digital-edition-inkl-2-controllern-/3580928113-279-2895",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580927618": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1758,7 +1765,7 @@
      "price": 450,
      "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-5-konsole-mit-2-controllern-steelseries-headset/3580927618-279-1436",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580927333": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1766,7 +1773,7 @@
      "price": 640,
      "url": "https://www.kleinanzeigen.de/s-anzeige/sony-playstation-5-pro-ps5-pro-2-tb-disc-laufwerk/3580927333-279-1916",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580926601": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1774,7 +1781,7 @@
      "price": 489,
      "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-5-disk-mit-controller-ovp/3580926601-279-1548",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580926491": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1782,7 +1789,7 @@
      "price": 700,
      "url": "https://www.kleinanzeigen.de/s-anzeige/sony-playstation-5-konsole-mit-controller/3580926491-279-7777",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580924539": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1790,7 +1797,7 @@
      "price": 700,
      "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-5-laufwerk-top-zustand-/3580924539-279-4720",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580924419": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1798,7 +1805,7 @@
      "price": 570,
      "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-hw-laufwerk-slim/3580924419-279-253",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580924056": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1806,7 +1813,7 @@
      "price": 451,
      "url": "https://www.kleinanzeigen.de/s-anzeige/sony-ps-5-pro-2tb-bundle-portal-pulse-elite-3-controller/3580924056-279-17424",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580923899": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1814,7 +1821,7 @@
      "price": 600,
      "url": "https://www.kleinanzeigen.de/s-anzeige/sony-playstation-5-pro-2-tb-ps5-pro-mit-controller-ovp-hdmi/3580923899-279-194",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580923689": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1822,7 +1829,7 @@
      "price": 400,
      "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-slim-lesen-/3580923689-279-26526",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580923237": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1830,7 +1837,7 @@
      "price": 600,
      "url": "https://www.kleinanzeigen.de/s-anzeige/sony-playstation-5-slim-1-tb-top-zustand/3580923237-279-1836",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580921190": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1838,7 +1845,7 @@
      "price": 340,
      "url": "https://www.kleinanzeigen.de/s-anzeige/sony-playstation-5-slim-mit-laufwerk-1-tb-ps5/3580921190-279-7868",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580920986": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1846,7 +1853,7 @@
      "price": 500,
      "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-mit-controller/3580920986-279-1002",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580920118": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1854,7 +1861,7 @@
      "price": 600,
      "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-5/3580920118-227-6278",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580919959": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1862,7 +1869,7 @@
      "price": 580,
      "url": "https://www.kleinanzeigen.de/s-anzeige/sony-playstation-5-pro-ps5-2-controller-inkl-ladestation/3580919959-279-7868",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580203159": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1870,7 +1877,7 @@
      "price": 699,
      "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-5-2-tage-alt-neuwertig/3580203159-227-6045",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580919787": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1878,7 +1885,7 @@
      "price": 600,
      "url": "https://www.kleinanzeigen.de/s-anzeige/sony-playstation-5-slim-controller/3580919787-279-18668",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580919622": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1886,7 +1893,7 @@
      "price": 200,
      "url": "https://www.kleinanzeigen.de/s-anzeige/xl-aquarium-komplett-200-tausche-ps5/3580919622-279-1931",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580919268": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1894,7 +1901,7 @@
      "price": 650,
      "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-disc-edition-luefter-3-spiele-wie-neu-/3580919268-279-5042",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580918889": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1902,7 +1909,7 @@
      "price": 700,
      "url": "https://www.kleinanzeigen.de/s-anzeige/sony-playstation-5-digital-edition-825/3580918889-279-9415",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580918437": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1910,7 +1917,7 @@
      "price": 650,
      "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-5/3580918437-279-9733",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580917239": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1918,7 +1925,7 @@
      "price": 420,
      "url": "https://www.kleinanzeigen.de/s-anzeige/sony-playstation-5-konsole/3580917239-279-7436",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580917099": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1926,7 +1933,7 @@
      "price": 300,
      "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-ps-5-slim-disc-edition-1tb-ovp-top-/3580917099-279-1266",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580916173": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1934,7 +1941,7 @@
      "price": 450,
      "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-digital-mit-controller/3580916173-279-7315",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580915992": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1942,7 +1949,7 @@
      "price": 500,
      "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-mit-cd-eingang/3580915992-227-23768",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580915955": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1950,7 +1957,7 @@
      "price": 650,
      "url": "https://www.kleinanzeigen.de/s-anzeige/verkaufe-ps5-fat-alte-version-/3580915955-279-8783",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580901964": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1958,7 +1965,7 @@
      "price": 650,
      "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-5-mit-2-originalen-controller/3580901964-227-1874",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580914177": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1966,7 +1973,7 @@
      "price": 700,
      "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-5-mit-2-controllern-zu-verkaufen/3580914177-279-3111",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580913976": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1974,7 +1981,7 @@
      "price": 700,
      "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-5-disc-controller-kabel/3580913976-279-1125",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580913179": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1982,7 +1989,7 @@
      "price": 700,
      "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-5-digital-edition-mit-2-controllern-und-zubehoer/3580913179-279-23975",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580912879": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1990,7 +1997,7 @@
      "price": 620,
      "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-slim-sofort-abholbar/3580912879-227-2453",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580912705": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -1998,7 +2005,7 @@
      "price": 295,
      "url": "https://www.kleinanzeigen.de/s-anzeige/reebok-x-playstation-30th-annivesary-limited-edition-44-5-neu/3580912705-158-6806",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580911416": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -2006,7 +2013,7 @@
      "price": 550,
      "url": "https://www.kleinanzeigen.de/s-anzeige/sony-playstation-5-digital-edition-konsole/3580911416-279-4559",
      "last_seen": "2026-11-23T20:58:49+00:00",
-     "active": true
+     "active": false
     },
     "3580910468": {
      "first_seen": "2026-11-23T20:58:49+00:00",
@@ -2014,6 +2021,310 @@
      "price": 700,
      "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-5-mit-controller/3580910468-279-7978",
      "last_seen": "2026-11-23T20:58:49+00:00",
+     "active": false
+    },
+    "3580981793": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "Sony PS5 Slim Digital Edition 825GB E-Chassis Black Friday 599 €",
+     "price": 599,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/sony-ps5-slim-digital-edition-825gb-e-chassis-black-friday-599-/3580981793-279-3519",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3581002597": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "ps5 slim Digital 1tb",
+     "price": 700,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-slim-digital-1tb/3581002597-279-4917",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3581002461": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "Playstation 5 Pro wird GESUCHT (Neu)!",
+     "price": 700,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-5-pro-wird-gesucht-neu-/3581002461-279-9680",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3581001711": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "PlayStation 5 Disk Edition (Slim) mit Laufwerk .",
+     "price": 550,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-5-disk-edition-slim-mit-laufwerk-/3581001711-227-4660",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3581001595": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "Ps5 in gutem Zustand",
+     "price": 500,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-in-gutem-zustand/3581001595-279-296",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3581000500": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "PlayStation 5 825GB",
+     "price": 650,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-5-825gb/3581000500-279-1964",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3581000420": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "PS 5 konsole",
+     "price": 400,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/ps-5-konsole/3581000420-279-4669",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3580999369": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "Playstation 5 mit Laufwerk ps5 inklusive Controller",
+     "price": 620,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-5-mit-laufwerk-ps5-inklusive-controller/3580999369-279-1236",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3580997668": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "PS5 Slim Digital Edition 825GB – 2 Controller – Garantie",
+     "price": 390,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-slim-digital-edition-825gb-2-controller-garantie/3580997668-279-4300",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3580997278": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "PS5 Konsole digital edition + controller original Sony.Neuwertig",
+     "price": 680,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-konsole-digital-edition-controller-original-sony-neuwertig/3580997278-279-8544",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3580997128": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "PlayStation 5 Slim zu verkaufen",
+     "price": 620,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-5-slim-zu-verkaufen/3580997128-279-6647",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3580996877": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "playstation 5 slim digital 1TB. ❗️bitte durchlesen❗️",
+     "price": 580,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-5-slim-digital-1tb-bitte-durchlesen-/3580996877-279-8285",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3580996866": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "PlayStation 5",
+     "price": 625,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-5/3580996866-279-64",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3580996349": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "Verkaufe PlayStation 5 digital Edition",
+     "price": 500,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/verkaufe-playstation-5-digital-edition/3580996349-227-2454",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3580996228": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "Ps5 BESCHREIBUNG LESEN !!",
+     "price": 380,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-beschreibung-lesen-/3580996228-279-4810",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3580996172": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "Sony PS5 DualSense Edge Controller mit Zubehör & Tasche",
+     "price": 150,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/sony-ps5-dualsense-edge-controller-mit-zubehoer-tasche/3580996172-279-2333",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3580995751": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "PlayStation 5",
+     "price": 600,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-5/3580995751-279-24230",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3580995424": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "PlayStation 5 mit zwei Controller",
+     "price": 600,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-5-mit-zwei-controller/3580995424-279-1745",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3580995321": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "Sony PlayStation 5 Konsole mit Laufwerk",
+     "price": 570,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/sony-playstation-5-konsole-mit-laufwerk/3580995321-279-1834",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3580994907": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "PlayStation 5 Slim – 1 TB – Weiß/Schwarz und blauem Controller",
+     "price": 680,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-5-slim-1-tb-weiss-schwarz-und-blauem-controller/3580994907-279-2189",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3580994715": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "playstation 5 zu verkaufen ohne Spiel",
+     "price": 500,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-5-zu-verkaufen-ohne-spiel/3580994715-279-9668",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3580994540": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "PlayStation 5 Slim – 1 TB",
+     "price": 600,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-5-slim-1-tb/3580994540-279-3948",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3580992727": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "PS5 GTA6 Controller – Schwarz – Neu & ungeöffnet",
+     "price": 165,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-gta6-controller-schwarz-neu-ungeoeffnet/3580992727-227-9554",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3580991923": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "SCUF Reflex FPS PS5 Pro Controller - Mouse Click Trigger",
+     "price": 300,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/scuf-reflex-fps-ps5-pro-controller-mouse-click-trigger/3580991923-279-2096",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3580991820": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "PlayStation 5 | 5 Spiele mit dabei | Garantie März 2027 | OVP",
+     "price": 650,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-5-5-spiele-mit-dabei-garantie-maerz-2027-ovp/3580991820-279-20323",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3580991538": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "Battle Beaver Custom PS5 Pro Controller Rot/Weiß - Mouse Click",
+     "price": 330,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/battle-beaver-custom-ps5-pro-controller-rot-weiss-mouse-click/3580991538-279-2096",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3580991343": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "Playstation 5 + 2 Controller + Ea Fc 27",
+     "price": 699,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-5-2-controller-ea-fc-27/3580991343-279-5624",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3580990973": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "Battle Beaver Custom PS5 Controller",
+     "price": 380,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/battle-beaver-custom-ps5-controller/3580990973-279-2096",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3580990243": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "PS5 mit Controller + ZB und FC26",
+     "price": 600,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-mit-controller-zb-und-fc26/3580990243-279-16795",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3580990208": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "PS5 Slim Digital Edition – 825 GB – Wie neu mit 2 Controllern",
+     "price": 550,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-slim-digital-edition-825-gb-wie-neu-mit-2-controllern/3580990208-279-4750",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3580990052": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "Ps5 Slim Digital 825gb",
+     "price": 650,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-slim-digital-825gb/3580990052-279-3505",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3580989627": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "Sony PlayStation 5 Slim Digital Edition",
+     "price": 650,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/sony-playstation-5-slim-digital-edition/3580989627-279-1452",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3580989590": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "PlayStation 5 mit 825 GB und 1 Controller plus Spiel",
+     "price": 650,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-5-mit-825-gb-und-1-controller-plus-spiel/3580989590-279-1716",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3580988992": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "playstation ps5 vr2 brille",
+     "price": 320,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-ps5-vr2-brille/3580988992-279-9445",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3580988587": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "PLAYSTATION 5 PS5 Disk Edition (Slim)",
+     "price": 650,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-5-ps5-disk-edition-slim-/3580988587-279-1712",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3580987984": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "Verkaufe PlayStation 5 slim + PlayStation wireless Headset",
+     "price": 699,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/verkaufe-playstation-5-slim-playstation-wireless-headset/3580987984-279-4491",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3580987336": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "Ps5 Disc-Version",
+     "price": 700,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-disc-version/3580987336-279-4300",
+     "last_seen": "2026-11-24T04:50:40+00:00",
+     "active": true
+    },
+    "3580987333": {
+     "first_seen": "2026-11-24T04:50:40+00:00",
+     "title": "Ps5 sehr gut",
+     "price": 630,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-sehr-gut/3580987333-227-23726",
+     "last_seen": "2026-11-24T04:50:40+00:00",
      "active": true
     }
    },
@@ -2060,12 +2371,17 @@
     "3580919622",
     "3580912705",
     "3580917099",
-    "3580921190"
+    "3580921190",
+    "3580996172",
+    "3580992727",
+    "3580991923",
+    "3580988992",
+    "3580991538"
    ]
   },
   "iphone13": {
    "threshold": 200.0,
-   "baseline": 250.0,
+   "baseline": 250,
    "snapshots": [
     {
      "t": "2026-11-22T18:19:10+00:00",
@@ -2115,6 +2431,13 @@
      "median": 250,
      "min": 150,
      "p25": 200
+    },
+    {
+     "t": "2026-11-24T04:50:46+00:00",
+     "count": 51,
+     "median": 270,
+     "min": 169,
+     "p25": 215
     }
    ],
    "listings": {
@@ -2331,7 +2654,7 @@
      "title": "iPhone 13 Pro 128 Gb",
      "price": 310,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-pro-128-gb/3508213868-173-2675",
-     "last_seen": "2026-11-23T20:58:53+00:00",
+     "last_seen": "2026-11-24T04:50:46+00:00",
      "active": true
     },
     "3579816325": {
@@ -2716,7 +3039,7 @@
      "price": 365,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-pro-max-256gb-graphite-neuwertig-in-59494-soest/3576701490-173-1452",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3579869177": {
      "first_seen": "2026-11-22T18:57:06+00:00",
@@ -2835,7 +3158,7 @@
      "title": "iPhone 13 mini 128GB |91–100 % Akku | inkl. 19% MwSt. Top Zustand",
      "price": 379,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-mini-128gb-91-100-akku-inkl-19-mwst-top-zustand/3528146741-173-3492",
-     "last_seen": "2026-11-23T20:58:53+00:00",
+     "last_seen": "2026-11-24T04:50:46+00:00",
      "active": true
     },
     "3580086838": {
@@ -3588,7 +3911,7 @@
      "price": 275,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-pro-256-gb/3580898197-173-3176",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580898174": {
      "first_seen": "2026-11-23T20:16:07+00:00",
@@ -3596,7 +3919,7 @@
      "price": 320,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-pink-128gb-100-akkukapazitaet/3580898174-173-434",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580897948": {
      "first_seen": "2026-11-23T20:16:07+00:00",
@@ -3604,7 +3927,7 @@
      "price": 330,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-mitternachtsblau/3580897948-173-388",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580896658": {
      "first_seen": "2026-11-23T20:16:07+00:00",
@@ -3612,7 +3935,7 @@
      "price": 200,
      "url": "https://www.kleinanzeigen.de/s-anzeige/i-phone-13-pro-128gb/3580896658-173-1262",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580896574": {
      "first_seen": "2026-11-23T20:16:07+00:00",
@@ -3620,7 +3943,7 @@
      "price": 190,
      "url": "https://www.kleinanzeigen.de/s-anzeige/i-phone-13/3580896574-173-293",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580896473": {
      "first_seen": "2026-11-23T20:16:07+00:00",
@@ -3628,7 +3951,7 @@
      "price": 180,
      "url": "https://www.kleinanzeigen.de/s-anzeige/apple-iphone-13-mini-128-gb-red/3580896473-173-4257",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580894997": {
      "first_seen": "2026-11-23T20:16:07+00:00",
@@ -3636,7 +3959,7 @@
      "price": 280,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-mini-256gb-mitternacht/3580894997-173-21426",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580894405": {
      "first_seen": "2026-11-23T20:16:07+00:00",
@@ -3644,7 +3967,7 @@
      "price": 220,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-128-gb/3580894405-173-6660",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580894385": {
      "first_seen": "2026-11-23T20:16:07+00:00",
@@ -3652,7 +3975,7 @@
      "price": 180,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-gruen-128gb/3580894385-173-4417",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580892561": {
      "first_seen": "2026-11-23T20:16:07+00:00",
@@ -3660,7 +3983,7 @@
      "price": 150,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-pro-128-gb-schwarz-batteriezustand-79-/3580892561-173-1102",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580892277": {
      "first_seen": "2026-11-23T20:16:07+00:00",
@@ -3668,7 +3991,7 @@
      "price": 230,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-zu-verkaufen/3580892277-173-1067",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580891799": {
      "first_seen": "2026-11-23T20:16:07+00:00",
@@ -3676,7 +3999,7 @@
      "price": 200,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-128-gb-white-86-akku-kapazitaet/3580891799-173-1964",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3570954686": {
      "first_seen": "2026-11-23T20:16:07+00:00",
@@ -3684,7 +4007,7 @@
      "price": 249,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-128-gb-gruen-sehr-gepflegter-zustand/3570954686-173-2468",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580888983": {
      "first_seen": "2026-11-23T20:16:07+00:00",
@@ -3692,7 +4015,7 @@
      "price": 300,
      "url": "https://www.kleinanzeigen.de/s-anzeige/apple-iphone-13-pro-max-128-gb-sehr-guter-zustand/3580888983-173-2463",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580888899": {
      "first_seen": "2026-11-23T20:16:07+00:00",
@@ -3700,7 +4023,7 @@
      "price": 170,
      "url": "https://www.kleinanzeigen.de/s-anzeige/apple-iphone-13-256gb-mitternachtblau-guenstig/3580888899-173-7698",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580888356": {
      "first_seen": "2026-11-23T20:16:07+00:00",
@@ -3708,7 +4031,7 @@
      "price": 249,
      "url": "https://www.kleinanzeigen.de/s-anzeige/apple-iphone-13-pro-weiss-mit-originalverpackung-und-kabel/3580888356-173-6574",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580888086": {
      "first_seen": "2026-11-23T20:16:07+00:00",
@@ -3716,7 +4039,7 @@
      "price": 200,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-rosa/3580888086-173-1260",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580886513": {
      "first_seen": "2026-11-23T20:16:07+00:00",
@@ -3724,7 +4047,7 @@
      "price": 190,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-128gb/3580886513-173-1984",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580886018": {
      "first_seen": "2026-11-23T20:16:07+00:00",
@@ -3732,7 +4055,7 @@
      "price": 600,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-mit-zubehoer-in-blau/3580886018-173-9439",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580885188": {
      "first_seen": "2026-11-23T20:16:07+00:00",
@@ -3740,7 +4063,7 @@
      "price": 220,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-128gb-weiss/3580885188-173-18545",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580885002": {
      "first_seen": "2026-11-23T20:16:07+00:00",
@@ -3748,7 +4071,7 @@
      "price": 199,
      "url": "https://www.kleinanzeigen.de/s-anzeige/handy-telefon/3580885002-173-5581",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580882416": {
      "first_seen": "2026-11-23T20:16:07+00:00",
@@ -3756,7 +4079,7 @@
      "price": 250,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-pro-256gb-graphite-top-zustand-inkl-panzerglas/3580882416-173-1514",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580867394": {
      "first_seen": "2026-11-23T20:16:07+00:00",
@@ -3764,7 +4087,7 @@
      "price": 200,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-im-top-zustand-/3580867394-173-1790",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580877886": {
      "first_seen": "2026-11-23T20:16:07+00:00",
@@ -3772,7 +4095,7 @@
      "price": 235,
      "url": "https://www.kleinanzeigen.de/s-anzeige/apple-iphone-13/3580877886-173-3999",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580877226": {
      "first_seen": "2026-11-23T20:16:07+00:00",
@@ -3980,7 +4303,7 @@
      "price": 245,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-pro-max-schwarz-256-gb/3580929898-173-2095",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3564894295": {
      "first_seen": "2026-11-23T20:58:53+00:00",
@@ -3988,7 +4311,7 @@
      "price": 295,
      "url": "https://www.kleinanzeigen.de/s-anzeige/apple-iphone-13-256-gb/3564894295-173-3610",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580926555": {
      "first_seen": "2026-11-23T20:58:53+00:00",
@@ -3996,7 +4319,7 @@
      "price": 350,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-14-pro-weiss-128gb-super-zustand-kein-11-12-13-15-16-/3580926555-173-8786",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580925851": {
      "first_seen": "2026-11-23T20:58:53+00:00",
@@ -4004,7 +4327,7 @@
      "price": 250,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-pro/3580925851-173-3032",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580924514": {
      "first_seen": "2026-11-23T20:58:53+00:00",
@@ -4012,7 +4335,7 @@
      "price": 340,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-pro-128gb/3580924514-173-7529",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580923600": {
      "first_seen": "2026-11-23T20:58:53+00:00",
@@ -4020,7 +4343,7 @@
      "price": 333,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-pro-max-in-gold-256gb/3580923600-173-7915",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580922243": {
      "first_seen": "2026-11-23T20:58:53+00:00",
@@ -4028,7 +4351,7 @@
      "price": 270,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-mit-ladekabel-weiss-/3580922243-173-2036",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580920915": {
      "first_seen": "2026-11-23T20:58:53+00:00",
@@ -4036,7 +4359,7 @@
      "price": 230,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-mit-128gb-in-guten-zustand/3580920915-173-3489",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580919336": {
      "first_seen": "2026-11-23T20:58:53+00:00",
@@ -4044,7 +4367,7 @@
      "price": 215,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-128-gb-blau/3580919336-173-6817",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580919140": {
      "first_seen": "2026-11-23T20:58:53+00:00",
@@ -4052,7 +4375,7 @@
      "price": 399,
      "url": "https://www.kleinanzeigen.de/s-anzeige/apple-iphone-13-pro-max/3580919140-173-2014",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580918709": {
      "first_seen": "2026-11-23T20:58:53+00:00",
@@ -4060,7 +4383,7 @@
      "price": 280,
      "url": "https://www.kleinanzeigen.de/s-anzeige/apple-iphone-13-pro-128-gb/3580918709-173-20666",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580918409": {
      "first_seen": "2026-11-23T20:58:53+00:00",
@@ -4068,7 +4391,7 @@
      "price": 350,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-pro/3580918409-173-2439",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580916626": {
      "first_seen": "2026-11-23T20:58:53+00:00",
@@ -4076,7 +4399,7 @@
      "price": 250,
      "url": "https://www.kleinanzeigen.de/s-anzeige/apple-iphone-13-mini-256-gb-gruen-mit-ovp/3580916626-173-617",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580916055": {
      "first_seen": "2026-11-23T20:58:53+00:00",
@@ -4084,7 +4407,7 @@
      "price": 325,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-pro-sehr-guter-zustand-100-akku-incl-zubehoer-und-ovp/3580916055-173-648",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580913437": {
      "first_seen": "2026-11-23T20:58:53+00:00",
@@ -4092,7 +4415,7 @@
      "price": 159,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-128-gb-voll-funktionsfaehig/3580913437-173-7770",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580912635": {
      "first_seen": "2026-11-23T20:58:53+00:00",
@@ -4100,7 +4423,7 @@
      "price": 400,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-pro-max-in-gruen-128gb/3580912635-173-27666",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580910248": {
      "first_seen": "2026-11-23T20:58:53+00:00",
@@ -4108,7 +4431,7 @@
      "price": 200,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-128gb/3580910248-173-1745",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580907887": {
      "first_seen": "2026-11-23T20:58:53+00:00",
@@ -4116,7 +4439,7 @@
      "price": 240,
      "url": "https://www.kleinanzeigen.de/s-anzeige/apple-iphone-13-512gb/3580907887-173-1743",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580907220": {
      "first_seen": "2026-11-23T20:58:53+00:00",
@@ -4124,7 +4447,7 @@
      "price": 265,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-midnight-128-gb-top-zustand-originalverpackt/3580907220-173-9195",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580906715": {
      "first_seen": "2026-11-23T20:58:53+00:00",
@@ -4132,7 +4455,7 @@
      "price": 200,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-mini-128-gb-akku-100-komplett-kratzerfrei/3580906715-173-2700",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580904798": {
      "first_seen": "2026-11-23T20:58:53+00:00",
@@ -4140,7 +4463,7 @@
      "price": 250,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-in-blau-mit-zubehoer/3580904798-173-9439",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580902901": {
      "first_seen": "2026-11-23T20:58:53+00:00",
@@ -4148,7 +4471,7 @@
      "price": 370,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-pro-max-100-akku-kapazitaet-blau-128gb/3580902901-173-434",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580902810": {
      "first_seen": "2026-11-23T20:58:53+00:00",
@@ -4156,7 +4479,7 @@
      "price": 350,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-pro/3580902810-173-1004",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3471278691": {
      "first_seen": "2026-11-23T20:58:53+00:00",
@@ -4164,7 +4487,7 @@
      "price": 250,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-mini-rosa/3471278691-173-7291",
      "last_seen": "2026-11-23T20:58:53+00:00",
-     "active": true
+     "active": false
     },
     "3580900064": {
      "first_seen": "2026-11-23T20:58:53+00:00",
@@ -4172,6 +4495,398 @@
      "price": 200,
      "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-128gb-akkukapazitaet-89-/3580900064-173-3125",
      "last_seen": "2026-11-23T20:58:53+00:00",
+     "active": false
+    },
+    "3581002274": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "iPhone 13 Pro 256 GB Graphit | Zustand gut | Voll funktionsfähig",
+     "price": 260,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-pro-256-gb-graphit-zustand-gut-voll-funktionsfaehig/3581002274-173-19400",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580998393": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "iPhone 13 Pro Max Gold",
+     "price": 300,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-pro-max-gold/3580998393-173-3112",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580996923": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "IPhone 13 Pro 128 GB",
+     "price": 310,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-pro-128-gb/3580996923-173-3462",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580996709": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "iPhone 13 Pro 128 GB Graphit",
+     "price": 300,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-pro-128-gb-graphit/3580996709-173-7528",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580996244": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "iPhone 13 Pro, 256gb, Sierrablau, OVP, Zubehör",
+     "price": 350,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-pro-256gb-sierrablau-ovp-zubehoer/3580996244-173-9886",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580994905": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "Verkaufe iPhone 13",
+     "price": 300,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/verkaufe-iphone-13/3580994905-173-4176",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580994132": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "iPhone 13 Pro",
+     "price": 280,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-pro/3580994132-173-2829",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580993263": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "iPhone 13 mit 128GB in gutem Zustand mit Ladekabel und Ovp",
+     "price": 250,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-mit-128gb-in-gutem-zustand-mit-ladekabel-und-ovp/3580993263-173-1087",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580992931": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "IPhone 11 und airpods 5 Tausch gegen iPhone 13 Pro oder ähnliches",
+     "price": 220,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-11-und-airpods-5-tausch-gegen-iphone-13-pro-oder-aehnliches/3580992931-173-6425",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580991121": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "iPhone 13 128GB",
+     "price": 210,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-128gb/3580991121-173-1089",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580991081": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "IPhone 13 mit 128GB",
+     "price": 190,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-mit-128gb/3580991081-173-1249",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580990015": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "Apple iPhone 13 128GB Grün",
+     "price": 215,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/apple-iphone-13-128gb-gruen/3580990015-173-7777",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580989415": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "Apple iPhone 13 – 128 GB – Schwarz – Top Zustand",
+     "price": 210,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/apple-iphone-13-128-gb-schwarz-top-zustand/3580989415-173-1097",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580988940": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "APPLE iPhone 13 Pro Max - 128 GB - GEBRAUCHT - AKKU 93%",
+     "price": 399,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/apple-iphone-13-pro-max-128-gb-gebraucht-akku-93-/3580988940-173-7700",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580988304": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "APPLE iPhone 13 Pro Max - 128 GB - GEBRAUCHT - AKKU 91%",
+     "price": 399,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/apple-iphone-13-pro-max-128-gb-gebraucht-akku-91-/3580988304-173-7700",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580985670": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "iPhone 13 128gb grün",
+     "price": 210,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-128gb-gruen/3580985670-173-3234",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580983558": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "iPhone 13 128 GB",
+     "price": 230,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-128-gb/3580983558-173-3353",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580983287": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "Apple IPhone 13 256 GB + Zubehör",
+     "price": 340,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/apple-iphone-13-256-gb-zubehoer/3580983287-173-1776",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580983025": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "Apple iPhone 13 mini 128GB weiß",
+     "price": 199,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/apple-iphone-13-mini-128gb-weiss/3580983025-173-1734",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580982610": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "iPhone 13 - 128GB",
+     "price": 240,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-128gb/3580982610-173-7754",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580982342": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "iPhone 13 midnight 128GB Mit OVP GUTER ZUSTAND ❎❎❎ FESTPREIS ❎❎❎",
+     "price": 169,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-midnight-128gb-mit-ovp-guter-zustand-festpreis-/3580982342-173-2434",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580981404": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "iPhone 13 94%Akku",
+     "price": 175,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-94-akku/3580981404-173-2036",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580980993": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "iPhone 13 Pro Alpingrün 128GB GUTEN ZUSTAND ❎❎ FESTPREIS❎❎",
+     "price": 239,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-pro-alpingruen-128gb-guten-zustand-festpreis-/3580980993-173-2434",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580980729": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "verkaufe iPhone 13 128GB Akkukapazität 79",
+     "price": 230,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/verkaufe-iphone-13-128gb-akkukapazitaet-79/3580980729-173-7337",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580979980": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "iPhone 13 Pro Max",
+     "price": 350,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-pro-max/3580979980-173-2748",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580979978": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "iPhone 13 Pro",
+     "price": 279,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-pro/3580979978-173-9518",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580979262": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "IPhone 13 Pro Max",
+     "price": 550,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-pro-max/3580979262-173-5789",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580977589": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "Apple iPhone 13 Pro 128 GB Graphit – sehr gepflegt – 120 Hz OLED",
+     "price": 309,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/apple-iphone-13-pro-128-gb-graphit-sehr-gepflegt-120-hz-oled/3580977589-173-1452",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580976527": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "iPhone 13, Starlight, 256GB im Premium Zustand",
+     "price": 320,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-starlight-256gb-im-premium-zustand/3580976527-173-9628",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580975523": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "iPhone 13 Midnight Blue 128 GB",
+     "price": 300,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-midnight-blue-128-gb/3580975523-173-3122",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580973614": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "I Phone 13 , midnightblue, 128 Gb",
+     "price": 199,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/i-phone-13-midnightblue-128-gb/3580973614-173-3065",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580973282": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "Apple Iphone 13 Pro 128 GB",
+     "price": 400,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/apple-iphone-13-pro-128-gb/3580973282-173-20668",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580968788": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "Apple iPhone 13 (A2633) 128GB",
+     "price": 175,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/apple-iphone-13-a2633-128gb/3580968788-173-3976",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580966697": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "iPhone 13 128 GB dunkelgrün",
+     "price": 300,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-128-gb-dunkelgruen/3580966697-173-4305",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580964575": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "iPhone 13 Pro 128 GB Sierra Blau",
+     "price": 410,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-pro-128-gb-sierra-blau/3580964575-173-1684",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580964435": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "Iphone 13 Pro",
+     "price": 230,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-pro/3580964435-173-2912",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580963087": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "iPhone 13 Pro 128GB Graphite",
+     "price": 250,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-pro-128gb-graphite/3580963087-173-3811",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580961383": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "iPhone 13 Pro Max schwarz 128 GB",
+     "price": 350,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-pro-max-schwarz-128-gb/3580961383-173-4910",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580959749": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "iPhone 13 Pro Max",
+     "price": 300,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-pro-max/3580959749-173-8409",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580958297": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "I Phone 13 Pro, 128GB, sehr guter Zustand",
+     "price": 255,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/i-phone-13-pro-128gb-sehr-guter-zustand/3580958297-173-8216",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580956438": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "iPhone 13 265GB",
+     "price": 230,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-265gb/3580956438-173-17436",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580955971": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "iPhone 13 Schwarz, 128 GB",
+     "price": 200,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-schwarz-128-gb/3580955971-173-9520",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580950322": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "IPhone 13 Pro",
+     "price": 280,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-pro/3580950322-173-5473",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580948755": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "iPhone 13 mini",
+     "price": 210,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-mini/3580948755-173-1953",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580948394": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "Apple iPhone 13 128 GB Polarstern – Top Zustand, 89% Akku, inkl.",
+     "price": 265,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/apple-iphone-13-128-gb-polarstern-top-zustand-89-akku-inkl-/3580948394-173-9093",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580948132": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "iPhone 13 Pro Max",
+     "price": 300,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-pro-max/3580948132-173-1637",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580947636": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "iPhone 13 256 gb",
+     "price": 285,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-256-gb/3580947636-173-3610",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580947628": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "Iphone 13 weiß",
+     "price": 270,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-weiss/3580947628-173-1276",
+     "last_seen": "2026-11-24T04:50:46+00:00",
+     "active": true
+    },
+    "3580946890": {
+     "first_seen": "2026-11-24T04:50:46+00:00",
+     "title": "iPhone 13 128 GB Mitternacht",
+     "price": 200,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/iphone-13-128-gb-mitternacht/3580946890-173-25317",
+     "last_seen": "2026-11-24T04:50:46+00:00",
      "active": true
     }
    },
@@ -4248,12 +4963,20 @@
     "3580913437",
     "3580910248",
     "3580906715",
-    "3580900064"
+    "3580900064",
+    "3580982342",
+    "3580981404",
+    "3580968788",
+    "3580991081",
+    "3580983025",
+    "3580973614",
+    "3580955971",
+    "3580946890"
    ]
   },
   "gta-6": {
    "threshold": 50.0,
-   "baseline": 129.5,
+   "baseline": 130,
    "snapshots": [
     {
      "t": "2026-11-22T18:19:14+00:00",
@@ -4303,6 +5026,13 @@
      "median": 150,
      "min": 3,
      "p25": 108
+    },
+    {
+     "t": "2026-11-24T04:50:49+00:00",
+     "count": 54,
+     "median": 127,
+     "min": 4,
+     "p25": 48
     }
    ],
    "listings": {
@@ -4311,15 +5041,15 @@
      "title": "Ps5 Reparatur/HDMI/Laufwerk/Mainboard/Netzteil/Reinigung/GTA6",
      "price": 70,
      "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-reparatur-hdmi-laufwerk-mainboard-netzteil-reinigung-gta6/3564795022-279-1606",
-     "last_seen": "2026-11-23T20:16:14+00:00",
-     "active": false
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
     },
     "3575710705": {
      "first_seen": "2026-11-22T18:19:14+00:00",
      "title": "Sony PlayStation 5 GTA6 Controller",
      "price": 132,
      "url": "https://www.kleinanzeigen.de/s-anzeige/sony-playstation-5-gta6-controller/3575710705-279-5654",
-     "last_seen": "2026-11-23T20:58:59+00:00",
+     "last_seen": "2026-11-24T04:50:49+00:00",
      "active": true
     },
     "3579823236": {
@@ -4527,7 +5257,7 @@
      "title": "An alle GTA-6-Fans: Rüstet eure Crew aus – 3 PS5-Controller ab 17",
      "price": 175,
      "url": "https://www.kleinanzeigen.de/s-anzeige/an-alle-gta-6-fans-ruestet-eure-crew-aus-3-ps5-controller-ab-17/3576873707-279-3490",
-     "last_seen": "2026-11-23T20:58:59+00:00",
+     "last_seen": "2026-11-24T04:50:49+00:00",
      "active": true
     },
     "3579770914": {
@@ -4735,7 +5465,7 @@
      "title": "PS5 Controller im GTA 6 Design | TMR Sticks | ähnl. Aim Scuf",
      "price": 99,
      "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-controller-im-gta-6-design-tmr-sticks-aehnl-aim-scuf/3576867212-168-2677",
-     "last_seen": "2026-11-23T20:58:59+00:00",
+     "last_seen": "2026-11-24T04:50:49+00:00",
      "active": true
     },
     "3579880428": {
@@ -5497,8 +6227,8 @@
      "title": "NEU PS5 DualSense Controller Limited Edition GTA 6",
      "price": 135,
      "url": "https://www.kleinanzeigen.de/s-anzeige/neu-ps5-dualsense-controller-limited-edition-gta-6/3577640663-279-6215",
-     "last_seen": "2026-11-23T07:43:26+00:00",
-     "active": false
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
     },
     "3580093074": {
      "first_seen": "2026-11-23T07:43:26+00:00",
@@ -5537,7 +6267,7 @@
      "title": "*OVP* Sony PS5 Limited Edition GTA6 Controller schwarz+Tropical S",
      "price": 165,
      "url": "https://www.kleinanzeigen.de/s-anzeige/-ovp-sony-ps5-limited-edition-gta6-controller-schwarz-tropical-s/3580898217-227-6273",
-     "last_seen": "2026-11-23T20:58:59+00:00",
+     "last_seen": "2026-11-24T04:50:49+00:00",
      "active": true
     },
     "3580897467": {
@@ -5545,7 +6275,7 @@
      "title": "Cactus Jack x Nike x GTA6 Hoodie (L)",
      "price": 400,
      "url": "https://www.kleinanzeigen.de/s-anzeige/cactus-jack-x-nike-x-gta6-hoodie-l-/3580897467-160-24625",
-     "last_seen": "2026-11-23T20:58:59+00:00",
+     "last_seen": "2026-11-24T04:50:49+00:00",
      "active": true
     },
     "3580126204": {
@@ -5554,7 +6284,7 @@
      "price": 150,
      "url": "https://www.kleinanzeigen.de/s-anzeige/gta-6-controller-ps5-schwarz-weiss-neu-ovp/3580126204-279-12923",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3580896529": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5562,7 +6292,7 @@
      "price": 70,
      "url": "https://www.kleinanzeigen.de/s-anzeige/gta6-neu-fsk18/3580896529-227-317",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3580087944": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5570,7 +6300,7 @@
      "price": 150,
      "url": "https://www.kleinanzeigen.de/s-anzeige/ps-5-duslsense-controller-gta6-limited-edition-/3580087944-168-2718",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3580883881": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5578,7 +6308,7 @@
      "price": 270,
      "url": "https://www.kleinanzeigen.de/s-anzeige/2x-limitierte-gta-6-ps5-dualsense-controller-neu/3580883881-279-2857",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3580894008": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5586,7 +6316,7 @@
      "price": 165,
      "url": "https://www.kleinanzeigen.de/s-anzeige/-ovp-sony-ps5-limited-edition-gta6-controller-weiss-tropical-sun/3580894008-227-6273",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3580892949": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5594,7 +6324,7 @@
      "price": 400,
      "url": "https://www.kleinanzeigen.de/s-anzeige/cactus-jack-x-nike-x-gta6-hoodie-l-/3580892949-160-24625",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3580892290": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5602,7 +6332,7 @@
      "price": 54,
      "url": "https://www.kleinanzeigen.de/s-anzeige/gta-6-figur-macca-alligator-3d-druck-vice-city-deko-geschenk/3580892290-246-2476",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3580887926": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5610,7 +6340,7 @@
      "price": 130,
      "url": "https://www.kleinanzeigen.de/s-anzeige/sony-playstation-5-dualsense-controller-gta6-limited-edition-neu/3580887926-279-2010",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3580877362": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5618,7 +6348,7 @@
      "price": 100,
      "url": "https://www.kleinanzeigen.de/s-anzeige/xbox-one-x-guenstigste-alternative-gta-6-zu-spielen/3580877362-279-970",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3580887010": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5626,7 +6356,7 @@
      "price": 59,
      "url": "https://www.kleinanzeigen.de/s-anzeige/gta-6-exklusives-wandbild-im-bilderrahmen-neu-ovp/3580887010-246-8524",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3580884313": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5634,7 +6364,7 @@
      "price": 400,
      "url": "https://www.kleinanzeigen.de/s-anzeige/cactus-jack-x-nike-x-gta6-hoodie-xl-/3580884313-160-24625",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3580881854": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5642,7 +6372,7 @@
      "price": 320,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nike-air-force-1-low-x-travis-scott-x-gta-6-white-groesse-43/3580881854-158-9520",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3580879948": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5650,7 +6380,7 @@
      "price": 320,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nike-air-force-1-low-x-travis-scott-x-gta-6-black-groesse-42-5/3580879948-158-9520",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3580873576": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5658,7 +6388,7 @@
      "price": 250,
      "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-gta-6-controller-weiss-schwartz/3580873576-168-8795",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3580870815": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5666,7 +6396,7 @@
      "price": 24,
      "url": "https://www.kleinanzeigen.de/s-anzeige/gta-6-ps5-lampe-3d-drucker/3580870815-168-1772",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3580870248": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5674,7 +6404,7 @@
      "price": 199,
      "url": "https://www.kleinanzeigen.de/s-anzeige/gta-6-controller-weiss-ps5/3580870248-168-1029",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3580871874": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5682,7 +6412,7 @@
      "price": 130,
      "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-gta6-controller-schwarz-neu-ungeoeffnet/3580871874-279-1393",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3580867919": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5690,7 +6420,7 @@
      "price": 169,
      "url": "https://www.kleinanzeigen.de/s-anzeige/sony-dualsense-wireless-controller-limited-edition-gta-6-ps5/3580867919-279-3173",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3580871663": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5706,7 +6436,7 @@
      "price": 140,
      "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-gta6-conttoller-schwartz/3580869300-168-8795",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3580865456": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5714,7 +6444,7 @@
      "price": 500,
      "url": "https://www.kleinanzeigen.de/s-anzeige/cactus-jack-nike-x-gta6-x-miami-heat-jersey-l-/3580865456-160-24625",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3580863757": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5722,7 +6452,7 @@
      "price": 500,
      "url": "https://www.kleinanzeigen.de/s-anzeige/cactus-jack-nike-x-gta6-x-miami-heat-vice-city-jersey-l-/3580863757-160-24625",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3580855644": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5730,7 +6460,7 @@
      "price": 140,
      "url": "https://www.kleinanzeigen.de/s-anzeige/gta6-limited-edition-controller-black/3580855644-279-1871",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3580853780": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5738,7 +6468,7 @@
      "price": 130,
      "url": "https://www.kleinanzeigen.de/s-anzeige/sony-playstation-dualsense-wireless-controller-gta-6-black-neu/3580853780-168-27861",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3577505497": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5746,7 +6476,7 @@
      "price": 130,
      "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-dualsense-controller-gta-6-limited-edition-schwarz-neu/3577505497-279-6215",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3580852879": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5754,7 +6484,7 @@
      "price": 150,
      "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-gta-6-controller-limitierte-edition/3580852879-227-6834",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3580848232": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5770,7 +6500,7 @@
      "price": 150,
      "url": "https://www.kleinanzeigen.de/s-anzeige/sony-dualsense-wireless-controller-gta-vi-6-limited-black-edition/3580838513-279-2150",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3580831921": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5778,7 +6508,7 @@
      "price": 25,
      "url": "https://www.kleinanzeigen.de/s-anzeige/gta-6-ps5-originalhuelle-mit-poster/3580831921-227-9044",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3580826285": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5786,7 +6516,7 @@
      "price": 160,
      "url": "https://www.kleinanzeigen.de/s-anzeige/gta-6-playstation-5-controller-unbenutzt-/3580826285-279-2374",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3580825057": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5794,7 +6524,7 @@
      "price": 15,
      "url": "https://www.kleinanzeigen.de/s-anzeige/gta-6-handy-stativ-geschenk/3580825057-227-5347",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3579269775": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5802,7 +6532,7 @@
      "price": 125,
      "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-ps5-gta-6-controller-weiss-und-schwarz/3579269775-279-1697",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3580815109": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5810,7 +6540,7 @@
      "price": 145,
      "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-controller-gta-6-limited-edition-schwarz-neu-und-ovp/3580815109-168-8793",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3580813709": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5818,7 +6548,7 @@
      "price": 200,
      "url": "https://www.kleinanzeigen.de/s-anzeige/gta-6-controller-original-verpackt-schwarz-/3580813709-279-9652",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3580826480": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5826,7 +6556,7 @@
      "price": 3,
      "url": "https://www.kleinanzeigen.de/s-anzeige/gta6-tuerschild/3580826480-246-8606",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3580811780": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5834,7 +6564,7 @@
      "price": 150,
      "url": "https://www.kleinanzeigen.de/s-anzeige/sony-playstation-5-controller-gta-6-black/3580811780-279-9445",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3580824958": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5842,7 +6572,7 @@
      "price": 499,
      "url": "https://www.kleinanzeigen.de/s-anzeige/xbox-series-s-konsole-mit-controller-gta6-kompatibel/3580824958-279-3135",
      "last_seen": "2026-11-23T20:58:59+00:00",
-     "active": true
+     "active": false
     },
     "3579345326": {
      "first_seen": "2026-11-23T20:16:14+00:00",
@@ -5937,7 +6667,7 @@
      "title": "Gta 6 DualSense (Limited Edition) weiß",
      "price": 140,
      "url": "https://www.kleinanzeigen.de/s-anzeige/gta-6-dualsense-limited-edition-weiss/3580911457-279-2024",
-     "last_seen": "2026-11-23T20:58:59+00:00",
+     "last_seen": "2026-11-24T04:50:49+00:00",
      "active": true
     },
     "3580924050": {
@@ -5945,7 +6675,7 @@
      "title": "GTA6 deko lampe",
      "price": 25,
      "url": "https://www.kleinanzeigen.de/s-anzeige/gta6-deko-lampe/3580924050-82-1948",
-     "last_seen": "2026-11-23T20:58:59+00:00",
+     "last_seen": "2026-11-24T04:50:49+00:00",
      "active": true
     },
     "3580906734": {
@@ -5953,7 +6683,7 @@
      "title": "GTA 6 Poster mit Hülle",
      "price": 25,
      "url": "https://www.kleinanzeigen.de/s-anzeige/gta-6-poster-mit-huelle/3580906734-227-1023",
-     "last_seen": "2026-11-23T20:58:59+00:00",
+     "last_seen": "2026-11-24T04:50:49+00:00",
      "active": true
     },
     "3580192250": {
@@ -5961,7 +6691,7 @@
      "title": "Xbox One X - GTA 6 via Cloud Streaming possible",
      "price": 150,
      "url": "https://www.kleinanzeigen.de/s-anzeige/xbox-one-x-gta-6-via-cloud-streaming-possible/3580192250-279-19880",
-     "last_seen": "2026-11-23T20:58:59+00:00",
+     "last_seen": "2026-11-24T04:50:49+00:00",
      "active": true
     },
     "3580914093": {
@@ -5969,7 +6699,7 @@
      "title": "Jeans individuell lasern, Eigene Motive, Bilder GTA6 Vice City",
      "price": 10,
      "url": "https://www.kleinanzeigen.de/s-anzeige/jeans-individuell-lasern-eigene-motive-bilder-gta6-vice-city/3580914093-298-5478",
-     "last_seen": "2026-11-23T20:58:59+00:00",
+     "last_seen": "2026-11-24T04:50:49+00:00",
      "active": true
     },
     "3580896764": {
@@ -5977,7 +6707,7 @@
      "title": "Sony DualSense Wireless Controller Limited Edition GTA 6",
      "price": 140,
      "url": "https://www.kleinanzeigen.de/s-anzeige/sony-dualsense-wireless-controller-limited-edition-gta-6/3580896764-227-4813",
-     "last_seen": "2026-11-23T20:58:59+00:00",
+     "last_seen": "2026-11-24T04:50:49+00:00",
      "active": true
     },
     "3580908531": {
@@ -5985,7 +6715,7 @@
      "title": "Cactus Jack x Nike x GTA6 T-Shirt (XL)",
      "price": 180,
      "url": "https://www.kleinanzeigen.de/s-anzeige/cactus-jack-x-nike-x-gta6-t-shirt-xl-/3580908531-160-24625",
-     "last_seen": "2026-11-23T20:58:59+00:00",
+     "last_seen": "2026-11-24T04:50:49+00:00",
      "active": true
     },
     "3580907834": {
@@ -5993,7 +6723,7 @@
      "title": "Cactus Jack x Nike x GTA6 T-Shirt (L)",
      "price": 180,
      "url": "https://www.kleinanzeigen.de/s-anzeige/cactus-jack-x-nike-x-gta6-t-shirt-l-/3580907834-160-24625",
-     "last_seen": "2026-11-23T20:58:59+00:00",
+     "last_seen": "2026-11-24T04:50:49+00:00",
      "active": true
     },
     "3580906466": {
@@ -6001,7 +6731,7 @@
      "title": "Cactus Jack x Nike x GTA6 T-Shirt (L)",
      "price": 150,
      "url": "https://www.kleinanzeigen.de/s-anzeige/cactus-jack-x-nike-x-gta6-t-shirt-l-/3580906466-160-24625",
-     "last_seen": "2026-11-23T20:58:59+00:00",
+     "last_seen": "2026-11-24T04:50:49+00:00",
      "active": true
     },
     "3580905733": {
@@ -6009,7 +6739,7 @@
      "title": "Cactus Jack x Nike x GTA6 T-Shirt (L)",
      "price": 150,
      "url": "https://www.kleinanzeigen.de/s-anzeige/cactus-jack-x-nike-x-gta6-t-shirt-l-/3580905733-160-24625",
-     "last_seen": "2026-11-23T20:58:59+00:00",
+     "last_seen": "2026-11-24T04:50:49+00:00",
      "active": true
     },
     "3580889595": {
@@ -6017,7 +6747,7 @@
      "title": "PlayStation PS5 GTA 6 Limited Edition Controller - Weiß",
      "price": 125,
      "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-ps5-gta-6-limited-edition-controller-weiss/3580889595-168-9349",
-     "last_seen": "2026-11-23T20:58:59+00:00",
+     "last_seen": "2026-11-24T04:50:49+00:00",
      "active": true
     },
     "3580899064": {
@@ -6025,7 +6755,7 @@
      "title": "GTA6 Ultimate Edition Code",
      "price": 70,
      "url": "https://www.kleinanzeigen.de/s-anzeige/gta6-ultimate-edition-code/3580899064-227-9523",
-     "last_seen": "2026-11-23T20:58:59+00:00",
+     "last_seen": "2026-11-24T04:50:49+00:00",
      "active": true
     },
     "3580870970": {
@@ -6034,6 +6764,286 @@
      "price": 115,
      "url": "https://www.kleinanzeigen.de/s-anzeige/gta-6-ps5-controller-weiss/3580870970-168-8795",
      "last_seen": "2026-11-23T20:58:59+00:00",
+     "active": false
+    },
+    "3580996357": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "GTA 6 Plakte aus der Bushaltestelle",
+     "price": 20,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/gta-6-plakte-aus-der-bushaltestelle/3580996357-234-1287",
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
+    },
+    "3580996041": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "GTA 6 Controller Weiß / Schwarz",
+     "price": 75,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/gta-6-controller-weiss-schwarz/3580996041-234-9157",
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
+    },
+    "3580992727": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "PS5 GTA6 Controller – Schwarz – Neu & ungeöffnet",
+     "price": 165,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-gta6-controller-schwarz-neu-ungeoeffnet/3580992727-227-9554",
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
+    },
+    "3580980326": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "Ps5 Controller GTA 6 EDITION",
+     "price": 110,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-controller-gta-6-edition/3580980326-279-3260",
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
+    },
+    "3580989294": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "GTA 6 PS5 Miniatur Schlüsselanhänger – Gaming Zubehör",
+     "price": 15,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/gta-6-ps5-miniatur-schluesselanhaenger-gaming-zubehoer/3580989294-242-1527",
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
+    },
+    "3580988153": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "Gta6 spiel",
+     "price": 100,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/gta6-spiel/3580988153-227-3150",
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
+    },
+    "3580983573": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "Grand Theft Auto IV Deko Emblem GTA 6",
+     "price": 55,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/grand-theft-auto-iv-deko-emblem-gta-6/3580983573-234-17141",
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
+    },
+    "3580983359": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "GTA 6 - Promo Poster (DIN A4) + Aufsteller",
+     "price": 45,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/gta-6-promo-poster-din-a4-aufsteller/3580983359-246-1128",
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
+    },
+    "3580980621": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "Vice City Rasierklingen-Schlüsselanhänger GTA 6/VI Leonida",
+     "price": 80,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/vice-city-rasierklingen-schluesselanhaenger-gta-6-vi-leonida/3580980621-234-3779",
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
+    },
+    "3580980015": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "„New Era® 9FORTY“-Snapback-Kappe GTA 6 / VI Vice City",
+     "price": 150,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/-new-era-9forty-snapback-kappe-gta-6-vi-vice-city/3580980015-156-3779",
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
+    },
+    "3580979864": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "Exklusiver GTA 6 PS5 Controller - Limitiertes Design",
+     "price": 230,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/exklusiver-gta-6-ps5-controller-limitiertes-design/3580979864-279-8684",
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
+    },
+    "3580966793": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "GTA VI / GTA 6 PS5 Base / Slim / Pro Cover",
+     "price": 10,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/gta-vi-gta-6-ps5-base-slim-pro-cover/3580966793-227-5425",
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
+    },
+    "3580973233": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "GTA 6 Poster Wandteppich 180x230cm",
+     "price": 49,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/gta-6-poster-wandteppich-180x230cm/3580973233-246-3099",
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
+    },
+    "3580962231": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "GTA 6 Poster Grand Theft Auto VI gta6",
+     "price": 15,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/gta-6-poster-grand-theft-auto-vi-gta6/3580962231-227-17008",
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
+    },
+    "3580958902": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "PS5 DualSense Controller GTA 6 VI Schwarz Limited Edition NEU ✨️",
+     "price": 120,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-dualsense-controller-gta-6-vi-schwarz-limited-edition-neu-/3580958902-279-9184",
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
+    },
+    "3580961633": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "PS5 DualSense Controller GTA 6 VI Weiß Limited Edition NEU ✨️",
+     "price": 120,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-dualsense-controller-gta-6-vi-weiss-limited-edition-neu-/3580961633-279-9184",
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
+    },
+    "3580970104": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "gta 6 led box",
+     "price": 20,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/gta-6-led-box/3580970104-246-7974",
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
+    },
+    "3580956746": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "GTA 6 Controller | Limited Edition | OVP | Ps5 | Black",
+     "price": 150,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/gta-6-controller-limited-edition-ovp-ps5-black/3580956746-279-9212",
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
+    },
+    "3580955853": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "GTA 6 Spielhülle + Poster",
+     "price": 20,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/gta-6-spielhuelle-poster/3580955853-227-8582",
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
+    },
+    "3580951726": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "Sony PlayStation 5 PS5 Controller Neu DualSense GTA VI 6 Design",
+     "price": 135,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/sony-playstation-5-ps5-controller-neu-dualsense-gta-vi-6-design/3580951726-168-29996",
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
+    },
+    "3580950427": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "PS5 GTA 6 Controller schwarz",
+     "price": 135,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-gta-6-controller-schwarz/3580950427-279-5212",
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
+    },
+    "3580962040": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "Collector Edition GTA6",
+     "price": 450,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/collector-edition-gta6/3580962040-234-20103",
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
+    },
+    "3580441890": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "gta 6 (Hülle+Poster) - Code bereits eingelöst",
+     "price": 25,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/gta-6-huelle-poster-code-bereits-eingeloest/3580441890-227-27467",
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
+    },
+    "3580941645": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "GTA 6 Controller",
+     "price": 150,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/gta-6-controller/3580941645-279-8381",
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
+    },
+    "3580936177": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "Ps5 GTA 6 Kontroller",
+     "price": 70,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-gta-6-kontroller/3580936177-279-4368",
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
+    },
+    "3580402639": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "PS5 DualSense Controller – GTA 6 Limited Edition – Schwarz",
+     "price": 140,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-dualsense-controller-gta-6-limited-edition-schwarz/3580402639-168-3135",
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
+    },
+    "3580934509": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "GTA 6 | PS5 | Xbox - Lucia Caminos Vice City | Deko | 3D Druck",
+     "price": 15,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/gta-6-ps5-xbox-lucia-caminos-vice-city-deko-3d-druck/3580934509-227-7415",
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
+    },
+    "3580931709": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "PS5 GTA 6 Controller schwarz limited edition Playstation NEU OVP",
+     "price": 140,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-gta-6-controller-schwarz-limited-edition-playstation-neu-ovp/3580931709-279-18882",
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
+    },
+    "3580930626": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "PlayStation 5 GTA 6 Controller Limited Edition!",
+     "price": 125,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-5-gta-6-controller-limited-edition-/3580930626-279-9351",
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
+    },
+    "3580265114": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "Playstation 5 GTA 6 Controller weiß",
+     "price": 135,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/playstation-5-gta-6-controller-weiss/3580265114-168-9343",
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
+    },
+    "3580924795": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "GTA 6 PS5 Controller",
+     "price": 145,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/gta-6-ps5-controller/3580924795-279-2653",
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
+    },
+    "3580935754": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "Nike x Cactus Jack x GTA 6 Money Band Reflective Hoodie Gr. L",
+     "price": 299,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nike-x-cactus-jack-x-gta-6-money-band-reflective-hoodie-gr-l/3580935754-160-9492",
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
+    },
+    "3580924258": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "PS5 DualSense Controller GTA 6 White Limited Edition – Neu & OVP",
+     "price": 129,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/ps5-dualsense-controller-gta-6-white-limited-edition-neu-ovp/3580924258-168-2581",
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
+    },
+    "3580934623": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "♡Furry, Fursona GTA 6 YCH Meme♡",
+     "price": 4,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/-furry-fursona-gta-6-ych-meme-/3580934623-282-6955",
+     "last_seen": "2026-11-24T04:50:49+00:00",
+     "active": true
+    },
+    "3580901972": {
+     "first_seen": "2026-11-24T04:50:49+00:00",
+     "title": "Xbox Series s perfekt für Weihnachten / GTA 6",
+     "price": 420,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/xbox-series-s-perfekt-fuer-weihnachten-gta-6/3580901972-279-1867",
+     "last_seen": "2026-11-24T04:50:49+00:00",
      "active": true
     }
    },
@@ -6086,11 +7096,22 @@
     "3579364810",
     "3580914093",
     "3580924050",
-    "3580906734"
+    "3580906734",
+    "3580934623",
+    "3580966793",
+    "3580989294",
+    "3580962231",
+    "3580934509",
+    "3580996357",
+    "3580970104",
+    "3580955853",
+    "3580441890",
+    "3580983359",
+    "3580973233"
    ]
   },
   "nintendo-switch": {
-   "threshold": 200.0,
+   "threshold": 320.0,
    "baseline": null,
    "snapshots": [
     {
@@ -6099,6 +7120,13 @@
      "median": 250,
      "min": 150,
      "p25": 190
+    },
+    {
+     "t": "2026-11-24T04:50:54+00:00",
+     "count": 51,
+     "median": 400,
+     "min": 150,
+     "p25": 230
     }
    ],
    "listings": {
@@ -6108,14 +7136,14 @@
      "price": 209,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-oled-64-gb-rot-blau-top-zustand-ovp-zubeh/3579189938-279-20024",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3549847937": {
      "first_seen": "2026-11-23T20:59:04+00:00",
      "title": "Nintendo Switch OLED – 512 GB – Zubehör + FC 26 wie neu",
      "price": 319,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-oled-512-gb-zubehoer-fc-26-wie-neu/3549847937-279-8742",
-     "last_seen": "2026-11-23T20:59:04+00:00",
+     "last_seen": "2026-11-24T04:50:54+00:00",
      "active": true
     },
     "3580929675": {
@@ -6124,7 +7152,7 @@
      "price": 400,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2/3580929675-227-9353",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580927702": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6132,7 +7160,7 @@
      "price": 250,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-oled/3580927702-279-2093",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580927352": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6140,7 +7168,7 @@
      "price": 175,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-konsole-grau-tasche-arms-splatoon-2-ovp-/3580927352-279-16392",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580926079": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6148,14 +7176,14 @@
      "price": 199,
      "url": "https://www.kleinanzeigen.de/s-anzeige/switch-1-oled-zubehoer-das-spiel-mario-kart-deluxe/3580926079-279-2007",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580925563": {
      "first_seen": "2026-11-23T20:59:04+00:00",
      "title": "Nintendo Switch Konsole mit Zubehör + 2 SPIELEN",
      "price": 220,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-konsole-mit-zubehoer-2-spielen/3580925563-279-3507",
-     "last_seen": "2026-11-23T20:59:04+00:00",
+     "last_seen": "2026-11-24T04:50:54+00:00",
      "active": true
     },
     "3580925538": {
@@ -6164,7 +7192,7 @@
      "price": 400,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-ovp-rechnung-10-26/3580925538-227-4542",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580921670": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6172,7 +7200,7 @@
      "price": 200,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-oled-modell-weiss-switch-sports-tasche/3580921670-279-8909",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580918231": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6180,7 +7208,7 @@
      "price": 250,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-animal-crossing-edition/3580918231-279-30144",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580917309": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6188,14 +7216,14 @@
      "price": 399,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-zelda-40th-limited-edition/3580917309-227-28003",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580917101": {
      "first_seen": "2026-11-23T20:59:04+00:00",
      "title": "Nintendo Switch (V2, 2021) - Neuwertig + 128GB Karte + Zubehör",
      "price": 190,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-v2-2021-neuwertig-128gb-karte-zubehoer/3580917101-279-16787",
-     "last_seen": "2026-11-23T20:59:04+00:00",
+     "last_seen": "2026-11-24T04:50:54+00:00",
      "active": true
     },
     "3580915842": {
@@ -6204,7 +7232,7 @@
      "price": 320,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-oled-inkl-5-spiele-zubehoer/3580915842-279-9517",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580909772": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6212,7 +7240,7 @@
      "price": 290,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-konsole-bundle-mit-pro-controller/3580909772-279-372",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580908469": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6220,7 +7248,7 @@
      "price": 250,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-oled-weiss-kaum-genutzt-ca-2-jahre-alt/3580908469-279-20018",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580907592": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6228,7 +7256,7 @@
      "price": 205,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-konsole-mit-zubehoer-und-tasche/3580907592-279-18670",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580905916": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6236,7 +7264,7 @@
      "price": 219,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-oled-konsole-mit-zubehoer/3580905916-279-7141",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580901423": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6244,7 +7272,7 @@
      "price": 190,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-v2-komplettset-3spiele-pro-controller-128gb/3580901423-279-27970",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580889563": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6252,7 +7280,7 @@
      "price": 300,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-oled-weiss-picofly-modded-mit-zubehoer/3580889563-279-1236",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580900629": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6260,14 +7288,14 @@
      "price": 180,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2x-joy-con-hori-pad-zubehoer/3580900629-279-2094",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580898020": {
      "first_seen": "2026-11-23T20:59:04+00:00",
      "title": "Nintendo Switch 2 Konsole – Wie neu + Tasche & 2 Controller",
      "price": 419,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-konsole-wie-neu-tasche-2-controller/3580898020-227-8963",
-     "last_seen": "2026-11-23T20:59:04+00:00",
+     "last_seen": "2026-11-24T04:50:54+00:00",
      "active": true
     },
     "3580897401": {
@@ -6276,7 +7304,7 @@
      "price": 385,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch2-ovp-mit-garantie/3580897401-279-8381",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580896989": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6284,7 +7312,7 @@
      "price": 250,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-oled-inkl-lego-marvel-heroes-2-und-zubehoer/3580896989-279-13826",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580896664": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6292,7 +7320,7 @@
      "price": 150,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-mit-2-spiele-topzustand/3580896664-279-4354",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580896437": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6300,14 +7328,14 @@
      "price": 270,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-oled-modell-weiss-/3580896437-279-9506",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580892240": {
      "first_seen": "2026-11-23T20:59:04+00:00",
      "title": "Nintendo Switch 2 Neu und Ungeöffnet Abholung mit Rechnung",
      "price": 429,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-neu-und-ungeoeffnet-abholung-mit-rechnung/3580892240-279-2740",
-     "last_seen": "2026-11-23T20:59:04+00:00",
+     "last_seen": "2026-11-24T04:50:54+00:00",
      "active": true
     },
     "3580890946": {
@@ -6316,7 +7344,7 @@
      "price": 420,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-konsole-mit-case-overcooked-spiel/3580890946-279-9457",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3576630048": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6324,7 +7352,7 @@
      "price": 399,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-konsole/3576630048-279-1140",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580889453": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6332,7 +7360,7 @@
      "price": 150,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch/3580889453-279-21872",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580885581": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6340,7 +7368,7 @@
      "price": 170,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-konsole-mit-zubehoer-top-zustand/3580885581-279-7721",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580883555": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6348,7 +7376,7 @@
      "price": 430,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2/3580883555-279-20786",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580878475": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6356,7 +7384,7 @@
      "price": 150,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch/3580878475-279-1238",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580878134": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6364,7 +7392,7 @@
      "price": 220,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-konsole-mit-2-extra-controllern-und-tasche/3580878134-279-9487",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580877008": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6372,7 +7400,7 @@
      "price": 239,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-konsole-mit-zubehoer-und-controllern/3580877008-279-5578",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580876131": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6380,7 +7408,7 @@
      "price": 179,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-v2/3580876131-279-2633",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580871400": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6388,7 +7416,7 @@
      "price": 190,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-oled-weiss-sehr-guter-zustand/3580871400-279-4761",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580870072": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6396,7 +7424,7 @@
      "price": 170,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-hello-kitty-design-2-taschen-animal-crossing/3580870072-279-1192",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580868667": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6404,7 +7432,7 @@
      "price": 199,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-v2-grau-pro-controller-nyxi-128gb-zelda-tasch/3580868667-279-2464",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580865747": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6412,7 +7440,7 @@
      "price": 290,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-oled-mit-zubehoer-und-extras/3580865747-279-2260",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580864975": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6420,14 +7448,14 @@
      "price": 400,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-konsole-inklusive-spiel/3580864975-279-3547",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580862946": {
      "first_seen": "2026-11-23T20:59:04+00:00",
      "title": "Nintendo Switch Konsole in OVP",
      "price": 158,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-konsole-in-ovp/3580862946-279-23969",
-     "last_seen": "2026-11-23T20:59:04+00:00",
+     "last_seen": "2026-11-24T04:50:54+00:00",
      "active": true
     },
     "3580862158": {
@@ -6435,7 +7463,7 @@
      "title": "Nintendo Switch 2 Konsole EU-Version NEU&OVP",
      "price": 450,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-konsole-eu-version-neu-ovp/3580862158-279-7411",
-     "last_seen": "2026-11-23T20:59:04+00:00",
+     "last_seen": "2026-11-24T04:50:54+00:00",
      "active": true
     },
     "3580855921": {
@@ -6444,7 +7472,7 @@
      "price": 320,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-the-legend-of-zelda-40th-anniversary-edition/3580855921-279-4930",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580854957": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6452,7 +7480,7 @@
      "price": 350,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-oled-weiss/3580854957-279-7219",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580854655": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6460,7 +7488,7 @@
      "price": 420,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-v2-schwarz-set-mit-dock-joy-cons-256gb-sandi-/3580854655-279-18966",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580852358": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6468,7 +7496,7 @@
      "price": 179,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-v1-2017-ungepatcht-komplettset-mit-zubehoer/3580852358-279-8390",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580851805": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6476,7 +7504,7 @@
      "price": 430,
      "url": "https://www.kleinanzeigen.de/s-anzeige/switch-2-perfekter-zustand/3580851805-279-4360",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580850788": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6484,7 +7512,7 @@
      "price": 190,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintedo-switch-konsole-mit-zubehoer/3580850788-279-4284",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580848914": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6492,7 +7520,7 @@
      "price": 240,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch/3580848914-279-1714",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580847593": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6500,7 +7528,7 @@
      "price": 150,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-1-v2-konsole-joy-cons-dock-station-netzteil-top/3580847593-279-9140",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580845538": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6508,7 +7536,7 @@
      "price": 230,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-mit-spielen-und-zubehoer/3580845538-279-2450",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580845311": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6516,7 +7544,7 @@
      "price": 350,
      "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-konsole-mit-4-spielen/3580845311-279-7714",
      "last_seen": "2026-11-23T20:59:04+00:00",
-     "active": true
+     "active": false
     },
     "3580841542": {
      "first_seen": "2026-11-23T20:59:04+00:00",
@@ -6524,6 +7552,358 @@
      "price": 280,
      "url": "https://www.kleinanzeigen.de/s-anzeige/2-stueck-nintendo-switch/3580841542-279-3348",
      "last_seen": "2026-11-23T20:59:04+00:00",
+     "active": false
+    },
+    "3580997737": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch 2 Konsole blau/rot wie neu",
+     "price": 400,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-konsole-blau-rot-wie-neu/3580997737-279-7529",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580990461": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch 2 - EU Version - NEU",
+     "price": 425,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-eu-version-neu/3580990461-279-2455",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580984825": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch OLED Modell - Super Mario Bros. Wonder Edition",
+     "price": 390,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-oled-modell-super-mario-bros-wonder-edition/3580984825-279-9193",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580983088": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch 2 (2026) - Neu - Festpreis",
+     "price": 400,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-2026-neu-festpreis/3580983088-279-2633",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580975378": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch 2 | Neuwertig | OVP + komplettes Zubehör",
+     "price": 419,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-neuwertig-ovp-komplettes-zubehoer/3580975378-279-6306",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580942105": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch 2 + Pokémon Pokopia – 400 €",
+     "price": 400,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-pok-mon-pokopia-400-/3580942105-227-2297",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580936235": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch 2",
+     "price": 480,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2/3580936235-227-9512",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580935687": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch 2 Neu 2026 EU Version",
+     "price": 420,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-neu-2026-eu-version/3580935687-279-43",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580838845": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch 2 – Neu & ungeöffnet!",
+     "price": 450,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-neu-ungeoeffnet-/3580838845-279-5641",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580825998": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "*NEU* Nintendo Switch 2",
+     "price": 399,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/-neu-nintendo-switch-2/3580825998-279-8267",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580795542": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch 2 Neu und ungeöffnet",
+     "price": 430,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-neu-und-ungeoeffnet/3580795542-279-1459",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580793653": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch 2",
+     "price": 460,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2/3580793653-279-4523",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580785190": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch 2 - wie neu - wenige Tage alt",
+     "price": 449,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-wie-neu-wenige-tage-alt/3580785190-279-3166",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3550329625": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch OLED Modell - Weiß - Wie neu Kaufdatum 21.05.2025",
+     "price": 229,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-oled-modell-weiss-wie-neu-kaufdatum-21-05-2025/3550329625-279-1913",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580778404": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch 2 Konsole NEU | neues Modell 2026 | 256GB",
+     "price": 460,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-konsole-neu-neues-modell-2026-256gb/3580778404-227-1288",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580737617": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch 2 - The Legend of Zelda Edition 40th Anniversary",
+     "price": 400,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-the-legend-of-zelda-edition-40th-anniversary/3580737617-227-634",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580733937": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch 2 - Spielkonsole Neu und Versiegelt",
+     "price": 420,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-spielkonsole-neu-und-versiegelt/3580733937-279-1949",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580728312": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "NEU Original Verpackt Nintendo Switch 2 Konsole RECHNUNG",
+     "price": 400,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/neu-original-verpackt-nintendo-switch-2-konsole-rechnung/3580728312-279-9487",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3577215505": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Classic Mini - Super Nintendo -NEU-",
+     "price": 215,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-classic-mini-super-nintendo-neu-/3577215505-279-8926",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3571617398": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch Spiele-Konsole V2 mit Tasche | Besserer Akku 2. Version | rot blau",
+     "price": 159,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-spiele-konsole-v2-mit-tasche-besserer-akku-2-version-rot-blau/3571617398-279-3398",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580722644": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch neuwertiger Zustand 2 paar Joycons+spiel+ovp",
+     "price": 220,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-neuwertiger-zustand-2-paar-joycons-spiel-ovp/3580722644-279-7979",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3575704118": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch 2 Konsole wie Neu inkl. OVP",
+     "price": 400,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-konsole-wie-neu-inkl-ovp/3575704118-279-7420",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580707601": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch 2 + Mario Kart + Extras, fast neu!!!",
+     "price": 450,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-mario-kart-extras-fast-neu-/3580707601-279-6952",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580685099": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch 2 Konsole Neuwertig",
+     "price": 420,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-konsole-neuwertig/3580685099-279-6895",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580659547": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch 2 Neu",
+     "price": 420,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-neu/3580659547-279-2033",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580653457": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch Oled Original Neu Sehr Guter Zustand",
+     "price": 200,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-oled-original-neu-sehr-guter-zustand/3580653457-279-2162",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580628473": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Neue nitendo switch",
+     "price": 230,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/neue-nitendo-switch/3580628473-279-8511",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580618674": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch Konsole mit Zubehör",
+     "price": 400,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-konsole-mit-zubehoer/3580618674-279-2424",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580613174": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch 2 Konsole – Neu & Originalverpackt",
+     "price": 439,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-konsole-neu-originalverpackt/3580613174-279-4313",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580596542": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch RGB Sailor Moon Joy-Con Hall effect",
+     "price": 200,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-rgb-sailor-moon-joy-con-hall-effect/3580596542-279-8920",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580595391": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Neue Nintendo Switch 2 schwarz OVP",
+     "price": 420,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/neue-nintendo-switch-2-schwarz-ovp/3580595391-279-5388",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580590721": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch V2 Mario Red & Blue Edition - Neuwertig in OVP",
+     "price": 199,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-v2-mario-red-blue-edition-neuwertig-in-ovp/3580590721-279-9468",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580576470": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch 2 Konsole - Neu in OVP",
+     "price": 440,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-konsole-neu-in-ovp/3580576470-279-4690",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580563637": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch 2 Konsole neu & originalverpackt",
+     "price": 450,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-konsole-neu-originalverpackt/3580563637-279-2082",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580538167": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch 2 NEU/OVP",
+     "price": 390,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-neu-ovp/3580538167-279-3069",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580527051": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch 2 Neu",
+     "price": 390,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-neu/3580527051-279-21767",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3578621429": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch OLED Modell - Weiß - Neuwertig",
+     "price": 380,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-oled-modell-weiss-neuwertig/3578621429-279-1128",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580504365": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "4 Nintendo Switch Spiele oni, Mariokart kingdom Hearts",
+     "price": 160,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/4-nintendo-switch-spiele-oni-mariokart-kingdom-hearts/3580504365-227-2414",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580503128": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch 2 NEU, OVP & ungeöffnet + Rechnung",
+     "price": 400,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-neu-ovp-ungeoeffnet-rechnung/3580503128-279-9365",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580494450": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch 2 NEU",
+     "price": 450,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-neu/3580494450-279-1587",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580475814": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Zelda Pro Controller Nintendo Switch 2 NEU",
+     "price": 150,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/zelda-pro-controller-nintendo-switch-2-neu/3580475814-279-5415",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580467865": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch 2 / Neuzustand / Mariokart & Minecraft",
+     "price": 450,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-neuzustand-mariokart-minecraft/3580467865-227-4217",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580445201": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch 2 Konsole NEU/OVP",
+     "price": 430,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-konsole-neu-ovp/3580445201-279-9283",
+     "last_seen": "2026-11-24T04:50:54+00:00",
+     "active": true
+    },
+    "3580406135": {
+     "first_seen": "2026-11-24T04:50:54+00:00",
+     "title": "Nintendo Switch 2 OVP",
+     "price": 450,
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nintendo-switch-2-ovp/3580406135-227-22005",
+     "last_seen": "2026-11-24T04:50:54+00:00",
      "active": true
     }
    },
@@ -6545,7 +7925,19 @@
     "3580850788",
     "3580926079",
     "3580868667",
-    "3580921670"
+    "3580921670",
+    "3580475814",
+    "3571617398",
+    "3580504365",
+    "3580590721",
+    "3580653457",
+    "3580596542",
+    "3577215505",
+    "3580925563",
+    "3580722644",
+    "3550329625",
+    "3580628473",
+    "3549847937"
    ]
   }
  }
